@@ -1,0 +1,43 @@
+site_name: SMT导航
+repo_name: 'squidfunk/mkdocs-material'
+repo_url: 'https://github.com/squidfunk/mkdocs-material'
+theme:
+  name: 'material'
+  custom_dir: 'material'
+  language: 'zh'
+  feature:
+    tabs: true
+  palette:
+    primary: 'green'
+    accent: 'green'
+    language: 'zh'
+    
+extra:
+  search:
+    version: 1.0
+    language: 'jp, en'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  
+pages:
+  - 'SMT相关':
+    - '简介': 'index.md'
+    - '组规': 'about_SMT/SMT_rules.md'
+    - '历史': 'about_SMT/SMT_history.md'
+    - '组员': 'about_SMT/SMT_members.md'
+  - '资源下载':
+    - '导航版本更新&离线': 'download_resources/nav_update.md'
