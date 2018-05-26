@@ -49,6 +49,8 @@
     
     
       <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../javascript/jquery-3.3.1.min.js"></script>
+      <script src="../../javascript/preload.js"></script>
     
     
       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -507,16 +509,19 @@
                   <h1>组员</h1>
                 
                 <style>
-details .md-typeset__scrollwrap, .admonition.example .md-typeset__scrollwrap{
+details .md-typeset__scrollwrap, .admonition.example .md-typeset__scrollwrap, .admonition.success .md-typeset__scrollwrap{
   margin: 1em 0rem;
 }
-details div .md-typeset .md-typeset__table{
-  padding: 0 0;
+.admonition .md-typeset .md-typeset__table{
+  margin: 1em 0rem;
 }
-td
-{ 
+td, th{ 
   vertical-align: middle !important;
 }
+td:nth-child(2), th:nth-child(2), td:nth-child(4), th:nth-child(4){
+  text-align: center !important;
+}
+
 </style>
 
 <div class="admonition tip">
@@ -537,35 +542,35 @@ td
     </tr>
   </thead>
   <tr>
-    <td><a href="http://tieba.baidu.com/home/main/?un=%E9%94%80%E9%94%8B%E9%95%9D%E9%93%B8&ie=utf-8" target="_blank">销锋镝铸</a></td>
-    <td>组长<br />、委员</td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a></td>
+    <td>组长<br />委员</td>
     <td>2013/7/10</td>
     <td>活跃</td>
     <td>变态版mod、地狱mod、变态版材质、SMT导航</td>
   </tr>
   <tr>
-    <td><a href="http://tieba.baidu.com/home/main/?un=_0%E8%B6%85%E6%96%B0%E6%98%9F0_&ie=utf-8" target="_blank">_0超新星0_</a></td>
-    <td width="50px">副组长<br />、委员</td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=_0超新星0_" target="_blank">_0超新星0_</a></td>
+    <td width="50px">副组长<br />委员</td>
     <td>2014/1</td>
     <td>退隐</td>
     <td>更多合成公式mod、R3D-CRAFT材质，dll的研究，材质制作教程</td>
   </tr>
   <tr>
-    <td><a href="http://tieba.baidu.com/home/main/?un=512542248&ie=utf-8" target="_blank">512542248</a></td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=512542248" target="_blank">512542248</a></td>
     <td>委员</td>
     <td>2013/7/10</td>
     <td>退隐</td>
     <td>早期mod研究，成立SMT</td>
   </tr>
   <tr>
-    <td style="word-break:break-all; word-wrap:break-all;"><a href="http://tieba.baidu.com/home/main/?un=lzm956902416&ie=utf-8" target="_blank">lzm956902416</a></td>
+    <td style="word-break:break-all; word-wrap:break-all;"><a href="http://tieba.baidu.com/home/main/?un=lzm956902416" target="_blank">lzm956902416</a></td>
     <td>委员</td>
     <td>2013</td>
     <td>退隐</td>
     <td>SMT导航</td>
   </tr>
   <tr>
-    <td><a href="http://tieba.baidu.com/home/main/?un=%E7%9E%84%E5%87%86%E5%9C%B0%E9%9B%B7&ie=utf-8" target="_blank">瞄准地雷</a></td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=瞄准地雷" target="_blank">瞄准地雷</a></td>
     <td>委员</td>
     <td>2014/3/28</td>
     <td>退隐</td>
@@ -606,7 +611,7 @@ td
     <td>暂无</td>
   </tr>
   <tr>
-    <td><a href="http://tieba.baidu.com/home/main/?un=%E7%9C%8B%E4%B8%B6%E5%B0%8F%E6%98%9F%E6%98%9F%E5%93%8E&ie=utf-8" target="_blank">看丶小星星哎</a></td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=看丶小星星哎" target="_blank">看丶小星星哎</a></td>
     <td>组员</td>
     <td>2014/9/24</td>
     <td>活跃</td>
@@ -620,7 +625,7 @@ td
     <td>噩梦版、混乱之治系列、猎驯时代系列</td>
   </tr>
   <tr>
-    <td>修改是种乐趣</td>
+    <td><a href="http://tieba.baidu.com/home/main/?un=修改是种乐趣" target="_blank">修改是种乐趣</a></td>
     <td>组员</td>
     <td>2016/12/24</td>
     <td>活跃</td>

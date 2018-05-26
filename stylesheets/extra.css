@@ -2,6 +2,16 @@
     display: none;
 }
 
+/*表格调整*/
+.md-typeset table:not([class]) th {
+    min-width: 8rem;
+    padding: 1.2rem 1.2rem;
+}
+
+.md-typeset table:not([class]) td {
+    padding: 1.2rem 1.2rem;
+}
+
 /*调整底栏高度和颜色*/
 .md-footer-meta {
     background-color: #220600
