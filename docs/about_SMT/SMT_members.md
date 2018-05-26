@@ -4,6 +4,9 @@ title: SMT组员
 details .md-typeset__scrollwrap, .admonition.example .md-typeset__scrollwrap{
   margin: 1em 0rem;
 }
+details div .md-typeset .md-typeset__table{
+  padding: 0 0;
+}
 td
 { 
   vertical-align: middle !important;
