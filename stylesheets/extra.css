@@ -1,4 +1,46 @@
-.hide
-{
+.hide {
     display: none;
+}
+
+/*调整底栏高度和颜色*/
+.md-footer-meta {
+    background-color: #220600
+}
+
+.md-footer-social {
+    padding: 0.2rem 0;
+}
+
+.md-footer-nav {
+    background-color: #240800;
+}
+
+.md-footer-nav__link {
+    padding-top: 1.8rem;
+    padding-bottom: 0rem;
+}
+
+/*自定义主题色*/
+button[data-md-color-primary=green] {
+    background-color: #3f9314
+}
+
+[data-md-color-primary=green] .md-typeset a {
+    color: #3f9314
+}
+
+[data-md-color-primary=green] .md-header, [data-md-color-primary=green] .md-hero {
+    background-color: #3f9314
+}
+
+[data-md-color-primary=green] .md-nav__link--active, [data-md-color-primary=green] .md-nav__link:active {
+    color: #3f9314
+}
+
+html [data-md-color-primary=green] .md-nav--primary .md-nav__title--site {
+    background-color: #3f9314
+}
+
+[    data-md-color-primary=green] .md-tabs {
+    background-color: #3f9314
 }
