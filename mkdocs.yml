@@ -1,10 +1,15 @@
-site_name: SMT导航
-repo_name: 'squidfunk/mkdocs-material'
-repo_url: 'https://github.com/squidfunk/mkdocs-material'
+site_name: 'SMT导航'
+site_author: '销锋镝铸'
+repo_name: 'SMT3'
+repo_url: 'https://github.com/XiaofengdiZhu/SMT3'
+use_directory_urls: false
+
 theme:
   name: 'material'
   custom_dir: 'material'
   language: 'zh'
+  static_templates:
+    - '404.html'
   feature:
     tabs: true
   palette:
@@ -14,11 +19,15 @@ theme:
     
 extra:
   search:
-    version: 1.0
-    language: 'jp, en'
+    language: 'en, jp'
+  social:
+    - type: github-alt
+      link: 'https://github.com/XiaofengdiZhu'
 
 extra_css:
   - 'stylesheets/extra.css'
+extra_javascript:
+ - 'javascript/extra.js'
 
 markdown_extensions:
   - admonition
@@ -32,7 +41,11 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.details
-  
+
+google_analytics:
+  - 'UA-119895782-1'
+  - 'auto'
+
 pages:
   - 'SMT相关':
     - '简介': 'index.md'
