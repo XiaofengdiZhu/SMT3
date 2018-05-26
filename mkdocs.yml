@@ -41,6 +41,11 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.details
+  - qrcode:
+      pixelsize: 6
+      lightcolor: '#ffffff'
+      darkcolor: '#000000'
+      bordercolor: '#000000'
 
 google_analytics:
   - 'UA-119895782-1'

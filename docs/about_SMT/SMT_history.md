@@ -54,12 +54,18 @@ Mod制作主要方向已转移到对源码的修改和添加上，Mod能够实�
 ---
 ##2018年
 ###x月x日
-SMT导航3.0开发完成，框架基于<a href="http://www.mkdocs.org/" target="_blank">Mkdocs</a>，主题<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>
+SMT导航3.0开发完成，框架基于[Mkdocs][6]，主题[Material for MkDocs][7]
 
 {>>最近三年历史有点安静呢~<<}  
 
-[1]: http://tieba.baidu.com/home/main/?un=512542248&ie=utf-8
-[2]: http://tieba.baidu.com/home/main/?un=销锋镝铸&ie=utf-8
-[3]: http://tieba.baidu.com/home/main/?un=lzm956902416&ie=utf-8
-[4]: http://tieba.baidu.com/home/main/?un=_0超新星0_&ie=utf-8
-[5]: http://tieba.baidu.com/home/main/?un=瞄准地雷&ie=utf-8
+[1]: http://tieba.baidu.com/home/main/?un=512542248
+[2]: http://tieba.baidu.com/home/main/?un=销锋镝铸
+[3]: http://tieba.baidu.com/home/main/?un=lzm956902416
+[4]: http://tieba.baidu.com/home/main/?un=_0超新星0_
+[5]: http://tieba.baidu.com/home/main/?un=瞄准地雷
+[6]: http://www.mkdocs.org/
+[7]: https://squidfunk.github.io/mkdocs-material/
+
+<script>
+$("article a[href^='http']:not([target])").attr("target","_blank");
+</script>
