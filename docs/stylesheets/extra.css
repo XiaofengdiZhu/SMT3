@@ -2,6 +2,12 @@
     display: none;
 }
 
+/*载入动画*/
+.md-main{
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
 /*表格调整*/
 .md-typeset table:not([class]) th {
     min-width: 8rem;
@@ -12,15 +18,13 @@
     padding: 1.2rem 1.2rem;
 }
 
+/*调整顶栏*/
+.md-source{
+    width: 15rem;
+    padding-right: 0;
+}
+
 /*调整底栏高度和颜色*/
-.md-footer-meta {
-    background-color: #220600
-}
-
-.md-footer-social {
-    padding: 0.2rem 0;
-}
-
 .md-footer-nav {
     background-color: #240800;
 }
@@ -29,6 +33,16 @@
     padding-top: 1.8rem;
     padding-bottom: 0rem;
 }
+
+.md-footer-meta {
+    margin-top: -1px;
+    background-color: #220600
+}
+
+.md-footer-social {
+    padding: 0.2rem 0;
+}
+
 
 /*自定义主题色*/
 button[data-md-color-primary=green] {
