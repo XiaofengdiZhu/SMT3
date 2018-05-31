@@ -3,7 +3,7 @@
     {% set path = "ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/{{ path }}">
     {% for social in config.extra.social %}
-      <a href="{{ social.link }}" class="md-footer-social__link fa fa-{{ social.type }}"></a>
+      <a href="{{ social.link }}" class="md-footer-social__link fa fa-{{ social.type }}" target="_blank"></a>
     {% endfor %}
   </div>
 {% endif %}
