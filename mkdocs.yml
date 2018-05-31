@@ -27,6 +27,7 @@ extra:
 extra_css:
   - 'stylesheets/extra.css'
 extra_javascript:
+ - 'cordova.js'
  - 'javascript/extra.js'
 
 markdown_extensions:
