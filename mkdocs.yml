@@ -60,3 +60,4 @@ pages:
     - '组员': 'about_SMT/SMT_members.md'
   - '资源下载':
     - '导航版本更新&离线': 'download_resources/nav_update.md'
+    - '资源下载整合': 'download_resources/resources.md'
