@@ -3,7 +3,7 @@
 }
 
 /*载入动画*/
-.md-main{
+.md-main {
     opacity: 0;
     transition: opacity 0.4s linear;
 }
@@ -19,9 +19,18 @@
 }
 
 /*调整顶栏*/
-.md-source{
+header.md-header {
+    top: -1px;
+    height: 4.9rem;
+}
+
+.md-source {
     width: 15rem;
     padding-right: 0;
+}
+
+.md-source__icon{
+    width: 3.6rem;
 }
 
 /*调整底栏高度和颜色*/
@@ -42,7 +51,6 @@
 .md-footer-social {
     padding: 0.2rem 0;
 }
-
 
 /*自定义主题色*/
 button[data-md-color-primary=green] {
