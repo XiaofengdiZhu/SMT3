@@ -59,15 +59,11 @@
       <script src="{{ base_url }}/javascript/preload.js"></script>
     {% endblock %}
     {% block fonts %}
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       {% if font != false %}
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
-              font.text | replace(' ', '+')  + ':300,400,400i,700|' +
-              font.code | replace(' ', '+')
-            }}">
+        <link rel="stylesheet" href="{{ base_url }}/fonts/Roboto_Mono.css">
         <style>body,input{font-family:"{{ font.text }}","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"{{ font.code }}","Courier New",Courier,monospace}</style>
       {% endif %}
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="{{ base_url }}/fonts/Material_Icons.css">
     {% endblock %}
     {% for path in extra_css %}
       <link rel="stylesheet" href="{{ path }}">

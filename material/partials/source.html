@@ -13,9 +13,7 @@
   <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-source" data-md-source="{{ repo_type }}" target="_blank">
     {% if repo_type %}
       <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#{{ repo_type }}" width="24" height="24"></use>
-        </svg>
+        <i class="fa fa-github-alt fa-2x" style="text-align: right;line-height: 57px"></i>
       </div>
     {% endif %}
     <div class="md-source__repository">
