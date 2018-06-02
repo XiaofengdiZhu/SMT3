@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.smt.navigator3"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.smt.navigator3"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.smt.navigator3"
+    },
+    "cordova-hot-code-push-plugin": {
+      "PACKAGE_NAME": "com.smt.navigator3"
+    }
+  },
+  "dependent_plugins": {}
+}

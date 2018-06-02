@@ -1,0 +1,34 @@
+{
+    "name": "com.smt.navigator3",
+    "displayName": "SMT3",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "7.0.0",
+        "cordova-browser": "^5.0.3",
+        "cordova-hot-code-push-plugin": "^1.5.3",
+        "cordova-plugin-statusbar": "^2.4.2",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-plugin-x-toast": "^2.6.2",
+        "cordova-windows": "^5.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-x-toast": {},
+            "cordova-hot-code-push-plugin": {}
+        },
+        "platforms": [
+            "android",
+            "windows",
+            "browser"
+        ]
+    }
+}
