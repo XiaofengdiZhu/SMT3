@@ -54,7 +54,7 @@ Mod制作主要方向已转移到对源码的修改和添加上，Mod能够实�
 ---
 ##2018年
 ###x月x日
-SMT导航3.0开发完成，框架基于[Mkdocs][6]，主题[Material for MkDocs][7]
+SMT导航3.0开发完成，框架基于[Mkdocs][6]，主题[Material for MkDocs][7]，打包器[Cordova][8]
 
 {>>最近三年历史有点安静呢~<<}  
 
@@ -65,6 +65,7 @@ SMT导航3.0开发完成，框架基于[Mkdocs][6]，主题[Material for MkDocs]
 [5]: http://tieba.baidu.com/home/main/?un=瞄准地雷
 [6]: http://www.mkdocs.org/
 [7]: https://squidfunk.github.io/mkdocs-material/
+[8]: http://cordova.apache.org/
 
 <script>
 $("article a[href^='http']:not([target])").attr("target","_blank");
