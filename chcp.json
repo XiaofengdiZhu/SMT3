@@ -1,0 +1,8 @@
+{
+  "name": "SMT3",
+  "ios_identifier": "com.smt.navigator3",
+  "android_identifier": "com.smt.navigator3",
+  "update": "start",
+  "content_url": "http://192.168.1.101:8080/",
+  "release": "2018.06.02-23.34.45"
+}

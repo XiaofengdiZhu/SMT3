@@ -53,12 +53,11 @@
       <script src="/javascript/preload.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="/fonts/Roboto_Mono.css">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="/fonts/Material_Icons.css">
     
     
       <link rel="stylesheet" href="/stylesheets/extra.css">
@@ -171,9 +170,7 @@
   <a href="https://github.com/XiaofengdiZhu/SMT3/" title="前往 Github 库" class="md-source" data-md-source="github" target="_blank">
     
       <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
-        </svg>
+        <i class="fa fa-github-alt fa-2x" style="text-align: right;line-height: 57px"></i>
       </div>
     
     <div class="md-source__repository">
@@ -256,9 +253,7 @@
   <a href="https://github.com/XiaofengdiZhu/SMT3/" title="前往 Github 库" class="md-source" data-md-source="github" target="_blank">
     
       <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
-        </svg>
+        <i class="fa fa-github-alt fa-2x" style="text-align: right;line-height: 57px"></i>
       </div>
     
     <div class="md-source__repository">
@@ -373,6 +368,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/download_resources/resources/index.html" title="资源下载整合" class="md-nav__link">
+      资源下载整合
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -420,8 +427,7 @@
       
         
   <div class="md-footer-social">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/font-awesome.min.css">
     
       <a href="https://github.com/XiaofengdiZhu" class="md-footer-social__link fa fa-github-alt" target="_blank"></a>
     
@@ -430,6 +436,12 @@
       
     </div>
   </div>
+  <div class="footer-Update hide">
+    <div class="footer-Update-container">
+      <div class="footer-Update-innerText">检测到新的版本</div>
+      <div class="footer-Update-button">更新!</div>
+    </div>
+</div>
 </footer>
       
     </div>
@@ -463,6 +475,11 @@
       
         <script src="/javascript/extra.js"></script>
       
+      <script>
+          if (typeof(cordova) !== "undefined") {
+              document.write("<script src='/javascript/cordova_extra.js'><\/script>");
+          }
+      </script>
     
     
       

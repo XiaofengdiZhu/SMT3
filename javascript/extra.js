@@ -1,10 +1,6 @@
 let $mdOverlay = $(".md-overlay");
 let $mdSearchOverlay = $(".md-search__overlay");
 
-if (typeof(cordova) !== "undefined") {
-    document.write("<script src='./javascript/cordova_extra.js'><\/script>");
-}
-
 function ScrollToTop() {
     $('html').animate({scrollTop: 0}, 250);
 }

@@ -1,0 +1,210 @@
+[
+  {
+    "file": "404.html",
+    "hash": "29fb7fc5aac75e212c2930489849fa70"
+  },
+  {
+    "file": "about_SMT/SMT_history/index.html",
+    "hash": "0ca0a311e5440d7c20effe508a5c8f3f"
+  },
+  {
+    "file": "about_SMT/SMT_members/index.html",
+    "hash": "3696474a9203f47a6b819fba7d8c494a"
+  },
+  {
+    "file": "about_SMT/SMT_rules/index.html",
+    "hash": "24e47f116c1f8c43218c11bed78fbe0a"
+  },
+  {
+    "file": "assets/images/favicon.png",
+    "hash": "840f949f01d90907c37b8bdc4cd53304"
+  },
+  {
+    "file": "assets/images/icons/bitbucket.4ebea66e.svg",
+    "hash": "a2278ea9f77df57f2527d402dceaf327"
+  },
+  {
+    "file": "assets/images/icons/github.a4034fb1.svg",
+    "hash": "151f688e14bdc674e192524d4f8b7698"
+  },
+  {
+    "file": "assets/images/icons/gitlab.348cdb3a.svg",
+    "hash": "d80e5efcbf15079432436d8139be5327"
+  },
+  {
+    "file": "assets/javascripts/application.b438e6c5.js",
+    "hash": "c2abe791677b34e71bb2da4f111daacd"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.da.js",
+    "hash": "2d8d5e00b6a90d6eab382856ce3c4b8e"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.de.js",
+    "hash": "97eab308111a670ce8868aa445d55b3f"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.du.js",
+    "hash": "f81c6a71efa9a272280e50d2fc829aa2"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.es.js",
+    "hash": "9177a27975c518b9821c8417aadb3835"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.fi.js",
+    "hash": "d6ddc0dc78c007d105a0f31915fbb702"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.fr.js",
+    "hash": "8ceb5f66ab57718acfd9c9fdb91932f7"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.hu.js",
+    "hash": "d1f8065c709cadf67cce54606ccdb990"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.it.js",
+    "hash": "14ec525bfa6903294ca4115ef8d5ce9a"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.jp.js",
+    "hash": "eb7f30d57e27b88af4da3289e03fcdde"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.multi.js",
+    "hash": "283d6bbe4f1a9b0f67b29254d69c2529"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.no.js",
+    "hash": "9f4c6c77788d085d8d47c1e1bf372316"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.pt.js",
+    "hash": "8331e5bc18d4dac82b966699043d747c"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.ro.js",
+    "hash": "f380d15e237b34591669aac7e9d528d2"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.ru.js",
+    "hash": "81c08275b749c233a55f76c9f9eccc58"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.stemmer.support.js",
+    "hash": "ff737d2f1322d9ac029872a35a1070f6"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.sv.js",
+    "hash": "b929c5069eacf5658aa92c948000a37f"
+  },
+  {
+    "file": "assets/javascripts/lunr/lunr.tr.js",
+    "hash": "dc85233cc1109f5ccf0fede963e04f6c"
+  },
+  {
+    "file": "assets/javascripts/lunr/tinyseg.js",
+    "hash": "ec4d65ea18358728310e118251398276"
+  },
+  {
+    "file": "assets/javascripts/modernizr.1aa3b519.js",
+    "hash": "988cef7006bef99c1fc75bf0831ad9f5"
+  },
+  {
+    "file": "assets/stylesheets/application-palette.6079476c.css",
+    "hash": "b2a9733f176cb8d556b37ebd10f8d821"
+  },
+  {
+    "file": "assets/stylesheets/application.8d40d89b.css",
+    "hash": "e9de0f5f68db8073a4b9c2b21a107c43"
+  },
+  {
+    "file": "download_resources/nav_update/index.html",
+    "hash": "6f66682de88e40a54b489aa7bb0f1f50"
+  },
+  {
+    "file": "download_resources/resources/index.html",
+    "hash": "283d88be959a9c813d4459afdf92c2e2"
+  },
+  {
+    "file": "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
+    "hash": "977439a41f335f8077d8b9ac7a570863"
+  },
+  {
+    "file": "fonts/font-awesome.min.css",
+    "hash": "a0e784c4ca94c271b0338dfb02055be6"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.woff2",
+    "hash": "af7ae505a9eed503f8b8e6982036873e"
+  },
+  {
+    "file": "fonts/KFOkCnqEu92Fr1Mu51xIIzI.woff2",
+    "hash": "d8bcbe724fd6f4ba44d0ee6a2675890f"
+  },
+  {
+    "file": "fonts/KFOlCnqEu92Fr1MmSU5fBBc4.woff2",
+    "hash": "55536c8e9e9a532651e3cf374f290ea3"
+  },
+  {
+    "file": "fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+    "hash": "037d830416495def72b7881024c14b7b"
+  },
+  {
+    "file": "fonts/KFOmCnqEu92Fr1Mu4mxK.woff2",
+    "hash": "5d4aeb4e5f5ef754e307d7ffaef688bd"
+  },
+  {
+    "file": "fonts/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2",
+    "hash": "e92cc0fb9e1a7debc138224fd02a462a"
+  },
+  {
+    "file": "fonts/Material_Icons.css",
+    "hash": "f99bfc309123b88028867c5e25ff1621"
+  },
+  {
+    "file": "fonts/Roboto_Mono.css",
+    "hash": "73f60143ec788d57b24b2ff1bfb47ce3"
+  },
+  {
+    "file": "index.html",
+    "hash": "51ae86da6ed1a8fb659662474543943b"
+  },
+  {
+    "file": "javascript/cordova_extra.js",
+    "hash": "d8b25319680eb460585b9909d38f259a"
+  },
+  {
+    "file": "javascript/extra.js",
+    "hash": "f06bef1a0f51da2f8a2be5f22b2d8856"
+  },
+  {
+    "file": "javascript/jquery-3.3.1.min.js",
+    "hash": "378087a64e1394fc51f300bb9c11878c"
+  },
+  {
+    "file": "javascript/preload.js",
+    "hash": "b5968bf237e75defdc22c78d554df985"
+  },
+  {
+    "file": "saiming/404.png",
+    "hash": "29f6071544d76bf1cef89b17256dbaf8"
+  },
+  {
+    "file": "saiming/logo_1.png",
+    "hash": "a237f6345407b1c4dded9327f9e11741"
+  },
+  {
+    "file": "search/search_index.json",
+    "hash": "840a3cbc24898eadfc32d72c5e6b4d35"
+  },
+  {
+    "file": "sitemap.xml",
+    "hash": "9409d2688997e818d096a81543897d32"
+  },
+  {
+    "file": "stylesheets/extra.css",
+    "hash": "9e39599491acac37f8bce0912fce2850"
+  }
+]
