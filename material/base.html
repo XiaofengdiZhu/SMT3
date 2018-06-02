@@ -193,6 +193,11 @@
       {% for path in extra_javascript %}
         <script src="{{ path }}"></script>
       {% endfor %}
+      <script>
+          if (typeof(cordova) !== "undefined") {
+              document.write("<script src='{{ base_url }}/javascript/cordova_extra.js'><\/script>");
+          }
+      </script>
     {% endblock %}
     {% block analytics %}
       {% if config.google_analytics %}
