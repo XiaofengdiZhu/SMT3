@@ -34,5 +34,4 @@
         <auto-install enabled="false" />
     </chcp>
     <engine name="android" spec="7.0.0" />
-    <engine name="windows" spec="^5.0.0" />
 </widget>
