@@ -54,11 +54,18 @@ google_analytics:
   - 'auto'
 
 pages:
-  - 'SMT相关':
+  - '关于SMT':
     - '简介': 'index.md'
+    - '编写人员': 'about_SMT/staff.md'
     - '组规': 'about_SMT/SMT_rules.md'
     - '历史': 'about_SMT/SMT_history.md'
     - '组员': 'about_SMT/SMT_members.md'
-  - '资源下载':
-    - '导航版本更新&离线': 'download_resources/nav_update.md'
-    - '资源下载整合': 'download_resources/resources.md'
+    - '导航更新&离线': 'about_SMT/nav_update.md'
+  - 'MOD教程':
+    - '序': 'tutorial/preface.md'
+    - '资源下载整合': 'tutorial/resources.md'
+    - 'Windows基础教程': 'tutorial/windows_tutorial.md'
+    - 'Content解析': 'tutorial/content_tutorial.md'
+    - '“源代码”教程': 'tutorial/source_code_tutorial.md'
+  - '其他教程':
+    - '发布范例': 'other_tutorial/publication_example.md'

@@ -7,7 +7,7 @@
 <a href="http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on Google Play</a>（安卓版）  
 <a href="https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M" target="_blank">Survivalcraft2 on amazon appstore for Android</a>（安卓版）  
 <a href="https://itunes.apple.com/us/app/survivalcraft-2/id1185580782" target="_blank">Survivalcraft2 on App Store</a>（IOS版）  
-<a href="https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2" target="_blank">Survivalcraft2 on Windows Store</a>（Windows 8.1+、Windows Phone版）
+<a href="https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2" target="_blank">Survivalcraft2 on Microsoft Store</a>（Windows 8.1+、Windows Phone版）
 ###非正版
 <a href="http://m.appchina.com/app/com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on 应用汇</a>（安卓版）  
 <a href="https://tieba.baidu.com/p/5201426501" target="_blank">SC with JS 2.1.23</a>（Windows 8.1+版）  
@@ -67,7 +67,7 @@
 >安卓版本已达到5.1的模拟器
 
 ###Content.pak处理
-<a href="" target="_blank">SCPaker</a>
+<a href="https://pan.baidu.com/s/1i53WHyH" target="_blank">SCPaker</a>
 >待补充链接。第三代Content.pak解包打包工具，由<a href="http://tieba.baidu.com/home/main/?un=修改是种乐趣" target="_blank">修改是种乐趣</a>基于第一代工具SCPacker开发
 
 ###文本编辑
@@ -95,7 +95,15 @@ FL studio
 <a href="https://www.visualstudio.com/zh-hans/vs/" target="_blank">Visual Studio</a>
 >开发新dll首选IDE，安装时只需勾选``Windows - .NET 桌面开发"
 
-
 ###其他工具
 <a href="https://www.appcgn.com/xyplorer-pro.html" target="_blank">XYPlorer 绿色便携版</a>
 >功能非常丰富的文件（资源）管理器，提高Mod开发效率
+
+##其他资源
+Blocksdata编辑器  
+<a href="https://xiaofengdizhu.github.io/SurvivalcraftBlocksdataEditor/" target="_blank">在线版</a> <a href="https://github.com/XiaofengdiZhu/SurvivalcraftBlocksdataEditor/archive/master.zip" target="_blank">离线版</a>
+  
+GUID验证器（查找xml文件中重复的Guid）   
+<a href="https://xiaofengdizhu.github.io/guid_duplicate_checking/" target="_blank">在线版</a> <a href="https://github.com/XiaofengdiZhu/guid_duplicate_checking/archive/master.zip" target="_blank">离线版</a>
+  
+  <a href="http://pan.baidu.com/share/link?shareid=2218194687&uk=2788149454" target="_blank">中文版Database.xml 1.25</a>
