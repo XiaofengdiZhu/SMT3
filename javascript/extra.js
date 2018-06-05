@@ -24,10 +24,10 @@ $("body").on({
         };
     },
     "touchend": function (event) {
-        if(Math.abs(event.changedTouches[0].clientY - touchStartPosition.y) <100){
+        if (Math.abs(event.changedTouches[0].clientY - touchStartPosition.y) < 100) {
             let dx = event.changedTouches[0].clientX - touchStartPosition.x;
-            if(touchStartPosition.x<50){
-                if(dx > 100){
+            if (touchStartPosition.x < 50) {
+                if (dx > 100) {
                     if ($mdSearchOverlay.css("opacity") > 0) {
                         $mdSearchOverlay.click();
                     }
@@ -35,7 +35,7 @@ $("body").on({
                         $mdOverlay.click();
                     }
                 }
-            }else if(dx<-100 && $mdOverlay.css("opacity") > 0){
+            } else if (dx < -100 && $mdOverlay.css("opacity") > 0) {
                 $mdOverlay.click();
             }
         }

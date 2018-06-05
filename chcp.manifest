@@ -1,19 +1,27 @@
 [
   {
     "file": "404.html",
-    "hash": "29fb7fc5aac75e212c2930489849fa70"
+    "hash": "5f7098e71dc9c6bb14f854639538e0ba"
+  },
+  {
+    "file": "about_SMT/nav_update/index.html",
+    "hash": "f306783f73b977a968b45f844e5248d9"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
-    "hash": "0ca0a311e5440d7c20effe508a5c8f3f"
+    "hash": "bcc82d7bdeffc072e1b17aa76bf59aa6"
   },
   {
     "file": "about_SMT/SMT_members/index.html",
-    "hash": "3696474a9203f47a6b819fba7d8c494a"
+    "hash": "57a9b5299a2549efdf6ef0b1adc8b416"
   },
   {
     "file": "about_SMT/SMT_rules/index.html",
-    "hash": "24e47f116c1f8c43218c11bed78fbe0a"
+    "hash": "6ce5332adaa2306749ddeb927288ed9a"
+  },
+  {
+    "file": "about_SMT/staff/index.html",
+    "hash": "d07c86322f151c33ad74aab601658364"
   },
   {
     "file": "assets/images/favicon.png",
@@ -120,14 +128,6 @@
     "hash": "e9de0f5f68db8073a4b9c2b21a107c43"
   },
   {
-    "file": "download_resources/nav_update/index.html",
-    "hash": "6f66682de88e40a54b489aa7bb0f1f50"
-  },
-  {
-    "file": "download_resources/resources/index.html",
-    "hash": "283d88be959a9c813d4459afdf92c2e2"
-  },
-  {
     "file": "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
     "hash": "977439a41f335f8077d8b9ac7a570863"
   },
@@ -169,7 +169,7 @@
   },
   {
     "file": "index.html",
-    "hash": "51ae86da6ed1a8fb659662474543943b"
+    "hash": "e7c57819bea1b6c71cee3ed05985e9db"
   },
   {
     "file": "javascript/cordova_extra.js",
@@ -177,7 +177,7 @@
   },
   {
     "file": "javascript/extra.js",
-    "hash": "f06bef1a0f51da2f8a2be5f22b2d8856"
+    "hash": "e63209517b225fbc74ff4f4f8b320729"
   },
   {
     "file": "javascript/jquery-3.3.1.min.js",
@@ -188,23 +188,51 @@
     "hash": "b5968bf237e75defdc22c78d554df985"
   },
   {
+    "file": "other_tutorial/publication_example/index.html",
+    "hash": "ba38c341ef37077d9d37daefc2314833"
+  },
+  {
     "file": "saiming/404.png",
-    "hash": "29f6071544d76bf1cef89b17256dbaf8"
+    "hash": "80174ca22e02fbe886dbe59f3fbeeee2"
   },
   {
     "file": "saiming/logo_1.png",
     "hash": "a237f6345407b1c4dded9327f9e11741"
   },
   {
+    "file": "saiming/windows_1.png",
+    "hash": "e900cf541222ad378c66eeeb26ca4e88"
+  },
+  {
     "file": "search/search_index.json",
-    "hash": "840a3cbc24898eadfc32d72c5e6b4d35"
+    "hash": "f4ad4a598e5ec47cef77dc94d6b171d9"
   },
   {
     "file": "sitemap.xml",
-    "hash": "9409d2688997e818d096a81543897d32"
+    "hash": "1259748d6d414ce5aca11f72b03fe942"
   },
   {
     "file": "stylesheets/extra.css",
     "hash": "9e39599491acac37f8bce0912fce2850"
+  },
+  {
+    "file": "tutorial/content_tutorial/index.html",
+    "hash": "aadbb09809781c801110ff7ca7ba5dd3"
+  },
+  {
+    "file": "tutorial/preface/index.html",
+    "hash": "8499d573c84c4a70623b343ff20e5216"
+  },
+  {
+    "file": "tutorial/resources/index.html",
+    "hash": "9ca6c1e49a6daf9538d34616a84049e0"
+  },
+  {
+    "file": "tutorial/source_code_tutorial/index.html",
+    "hash": "766c9cff426261ac45e40b10187d8e81"
+  },
+  {
+    "file": "tutorial/windows_tutorial/index.html",
+    "hash": "afaa09d5ecd7fc8873d76c919399e3b2"
   }
 ]
