@@ -2,13 +2,13 @@
 >本章由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>整理、推荐  
 点击标题打开下载页
 
-##Survivalcraft2安装包
-###Survivalcraft2官方正版
+##游戏安装包
+###正版途径
 <a href="http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on Google Play</a>（安卓版）  
 <a href="https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M" target="_blank">Survivalcraft2 on amazon appstore for Android</a>（安卓版）  
 <a href="https://itunes.apple.com/us/app/survivalcraft-2/id1185580782" target="_blank">Survivalcraft2 on App Store</a>（IOS版）  
 <a href="https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2" target="_blank">Survivalcraft2 on Microsoft Store</a>（Windows 8.1+、Windows Phone版）
-###非正版
+###其他途径
 <a href="http://m.appchina.com/app/com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on 应用汇</a>（安卓版）  
 <a href="https://tieba.baidu.com/p/5201426501" target="_blank">SC with JS 2.1.23</a>（Windows 8.1+版）  
 <a href="http://tieba.baidu.com/f?kw=%E7%94%9F%E5%AD%98%E6%88%98%E4%BA%89&ie=utf-8&tab=good&cid=7" target="_blank">百度贴吧-生存战争吧-精品区-资源下载</a>
@@ -44,7 +44,7 @@
 
 ###其他推荐
 <a href="http://soft.shouji.com.cn/down/27921.html" target="_blank">幸运破解器</a>
->使用此软件进行`核心破解`后可无视安装包签名直接安装，需root
+>使用此软件进行`核心破解`后可无视安装包签名直接安装未签名或签名不一致安装包，需root
 
 ##Windows资源
 ###系统相关
@@ -92,8 +92,16 @@ FL studio
 <a href="https://github.com/0xd4d/dnSpy/releases" target="_blank">dnSpy</a>
 >非常方便的dll、exe修改工具，可编辑源码
 
+<a href="http://pan.baidu.com/share/link?shareid=1721790542&uk=2788149454" target="_blank">NETFX Tools</a>
+>内有`ildasm.exe`，可反编译exe、dll文件为il，亦有和ILSpy相同的以不同语言查看的功能  
+此处提供的版本提取自`C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools`
+
+<a href="http://pan.baidu.com/share/link?shareid=1716294067&uk=2788149454" target="_blank">IL Assembler</a>
+>简称`ilasm`，可将IL语言编写的文件转换为exe、dll文件，使用控制台执行  
+此处提供的版本提取自`C:\Windows\Microsoft.NET\Framework64\v4.0.30319`
+
 <a href="https://www.visualstudio.com/zh-hans/vs/" target="_blank">Visual Studio</a>
->开发新dll首选IDE，安装时只需勾选``Windows - .NET 桌面开发"
+>开发新dll首选IDE，安装时只需勾选`Windows - .NET 桌面开发`
 
 ###其他工具
 <a href="https://www.appcgn.com/xyplorer-pro.html" target="_blank">XYPlorer 绿色便携版</a>

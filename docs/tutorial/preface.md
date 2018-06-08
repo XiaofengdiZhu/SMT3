@@ -1,4 +1,4 @@
-title: SMT导航-序
+title: 序 - Mod教程
 
 #序
 

@@ -4,7 +4,8 @@ title: Windows基础教程
 >本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
 
 ##所需工具
-Windows 8.1及以上设备
+* Windows 8.1及以上设备
+* [SC with JS](#sc-with-js)
 
 ##获取游戏
 ###正版途径
@@ -26,33 +27,35 @@ Windows 8.1及以上设备
 
 部分文件和文件夹说明：  
 
-* &zwnj;`Content/` Content.pak经[SCPaker][2]解包输出的文件夹，可将此文件夹拖拽到`SCPaker.Windows.exe`上打包成`Content.pak`（软件生成）  
-* &zwnj;`js/` [SC with JS](#sc-with-js)的JavaScript脚本存放文件夹  
-* &zwnj;`Content.pak` 包含游戏数据和资源的简单打包文件，可拖拽到`SCPaker.Windows.exe`上来解包（如上图）  。详细修改教程见[Content解析][3]  
-* &zwnj;`Engine.dll` 游戏原作者开发的游戏引擎，一般不需要修改  
-* &zwnj;`SCPAK.dll` [SCPaker][2]的依赖文件（编者添加）  
-* &zwnj;`SCPaker.Windows.exe` [SCPaker][2]的Windows版主程序（编者添加）  
-* &zwnj;`Survivalcraft 2 Cracked`  游戏快捷方式，从开始菜单拖拽进文件夹（编者添加）  
-* &zwnj;`Survivalcraft.exe`  游戏主程序，可通过[dnSpy][4]修改“源代码”。详细修改教程见[“源代码”教程][5]  
+* `Content/` Content.pak经[SCPaker][2]解包输出的文件夹，可将此文件夹拖拽到`SCPaker.Windows.exe`上打包成`Content.pak`（软件生成）  
+* `js/` [SC with JS](#sc-with-js)的JavaScript脚本存放文件夹  
+* `Content.pak` 包含游戏 **数据**（例如方块属性、生物属性、合成表）和 **资源**（例如图片、声音、模型）的简单打包文件，可拖拽到`SCPaker.Windows.exe`上来解包（如上图）  。此文件详细解析见[Content解析][3]  
+* `Engine.dll` 游戏作者开发的游戏引擎，一般不需要修改  
+* `SCPAK.dll` [SCPaker][2]的依赖文件（编者添加）  
+* `SCPaker.Windows.exe` [SCPaker][2]的Windows版主程序（编者添加）  
+* `Survivalcraft 2 Cracked`  游戏快捷方式，从开始菜单拖拽进文件夹（编者添加）  
+* `Survivalcraft.exe`  游戏主程序，可通过[dnSpy][4]修改“源代码”。详细修改教程见[“源代码”教程][5]  
 
 如果要添加dll文件，可以直接将文件放在`SurvivalcraftAppX`文件夹中，游戏将自动加载  
-如果要添加资源文件，例如图片、声音、模型，建议打包进`Content.pak`，详细步骤见[Content解析][3]
+如果要添加资源文件，建议打包进`Content.pak`；也可以放在任意位置，但只能通过“源代码”来加载
 
 ##测试和发布
 ###测试运行
 按照以上步骤修改或增加文件进游戏后，通过`开始菜单 - Survivalcraft 2 Cracked`或游戏快捷方式`Survivalcraft 2 Cracked`打开游戏来测试游戏是否可以正常运行，Mod是否生效。  
 ###出现错误
-如果添加、修改exe、dll文件后游戏无法打开，说明你的exe、dll文件存在问题。  
-游戏弹出窗口报错，按照报错内容检查你的修改后修复即可。  
-对于原因不明的无法运行，比较一般的解决方法是将最后一次正常运行以来的修改全部删除，一点点加回去测试游戏，即可查出是哪一部分导致的问题。
+
+1. 如果添加、修改exe、dll文件后游戏无法打开，说明你的exe、dll文件存在问题。  
+2. 游戏弹出窗口报错，按照报错内容检查你的修改后修复即可。  
+
+对于原因不明的无法运行，比较一般的解决方法是将最后一次正常运行以来的修改全部删除，一点点加回去测试游戏，即可查出是哪一部分导致的问题
 ###发布
 如果只修改了`Content.pak`，那么可以直接发布此文件，同时该文件可以用在所有平台同大版本的游戏中。  
 如果添加、修改了exe、dll文件，建议连同所有未修改的文件打包成安装包一起发布。  
 至此，一个Windows平台Mod已制作完成，在最后的发布之前建议您参考[发布范例][6]，祝您的Mod作品人气火热！
 
 [1]: #sc-with-js
-[2]: ../tutorial/resources.md#contentpak_1
+[2]: resources.md#contentpak_1
 [3]: content_tutorial.md
-[4]: ../tutorial/resources.md#_12
+[4]: resources.md#_12
 [5]: source_code_tutorial.md
 [6]: ../other_tutorial/publication_example.md

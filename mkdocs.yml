@@ -9,6 +9,8 @@ theme:
   name: 'material'
   custom_dir: 'material'
   language: 'zh'
+  favicon: 'favicon.png'
+  logo: 'saiming/web_logo.png'
   static_templates:
     - '404.html'
   feature:
@@ -64,8 +66,12 @@ pages:
   - 'MOD教程':
     - '序': 'tutorial/preface.md'
     - '资源下载整合': 'tutorial/resources.md'
+    - 'Android基础教程': 'tutorial/android_tutorial.md'
     - 'Windows基础教程': 'tutorial/windows_tutorial.md'
     - 'Content解析': 'tutorial/content_tutorial.md'
+    - 'BlocksData解析': 'tutorial/blocksdata_tutorial.md'
+    - 'XML教程': 'tutorial/xml_tutorial.md'
+    - 'Clothes解析': 'tutorial/clothes_tutorial.md'
     - '“源代码”教程': 'tutorial/source_code_tutorial.md'
-  - '其他教程':
+  - '例子':
     - '发布范例': 'other_tutorial/publication_example.md'
