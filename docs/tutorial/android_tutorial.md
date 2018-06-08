@@ -85,7 +85,7 @@ title: Android基础教程
 4. 重复步骤1，勾选`禁用应用管理器签名验证`，点击`应用`，等待手机重启，完成
 
 完成后`Android核心破解`的弹出菜单如下图
-<center><div style="max-width: 360px;">![](../saiming/android_2.png)</div></center>  
+<center><div style="max-width: 360px;">![安卓核心破解](../saiming/android_2.png)</div></center>  
 
 [1]: resources.md#apk
 [2]: resources.md#_12
