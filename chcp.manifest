@@ -1,27 +1,27 @@
 [
   {
     "file": "404.html",
-    "hash": "4c2948a27ff5398d5d6561e10a51620a"
+    "hash": "5c223cef51b2788e4205c4416450c375"
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "fd48e47518254dca2283ee45afe1a667"
+    "hash": "a294e2adc57753e1b3b79da347beec81"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
-    "hash": "b7cb9428da04b7d69bb4a495bc18a209"
+    "hash": "882c300984f67745bb27ef136243bb83"
   },
   {
     "file": "about_SMT/SMT_members/index.html",
-    "hash": "8cf4304cf17b9b5fa967372bab1b37f7"
+    "hash": "4bf60aca2339cc82e8efc106cd0230ec"
   },
   {
     "file": "about_SMT/SMT_rules/index.html",
-    "hash": "2cd0eb6f20229b40b3a4868ec102e039"
+    "hash": "80a9a93b423aedfb37db9d78aa957f1d"
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "ee5cb3e62938d0f8db412c652a9a9948"
+    "hash": "39ac34b6ac7880f189d1c7d3125e0577"
   },
   {
     "file": "assets/images/favicon.png",
@@ -120,6 +120,10 @@
     "hash": "988cef7006bef99c1fc75bf0831ad9f5"
   },
   {
+    "file": "assets/no_cached/index.html",
+    "hash": "8b1b2fc62a5410e9cd33c104b1472db7"
+  },
+  {
     "file": "assets/stylesheets/application-palette.6079476c.css",
     "hash": "b2a9733f176cb8d556b37ebd10f8d821"
   },
@@ -173,7 +177,7 @@
   },
   {
     "file": "index.html",
-    "hash": "e1e67dde75a7a767d31f24b4d01dc71e"
+    "hash": "f6d649b5fc02c0a101ac6217404b0d5c"
   },
   {
     "file": "javascript/cordova_extra.js",
@@ -181,7 +185,7 @@
   },
   {
     "file": "javascript/extra.js",
-    "hash": "e63209517b225fbc74ff4f4f8b320729"
+    "hash": "579be4f40196254f41d5fc2e02d79171"
   },
   {
     "file": "javascript/jquery-3.3.1.min.js",
@@ -192,8 +196,12 @@
     "hash": "b5968bf237e75defdc22c78d554df985"
   },
   {
+    "file": "manifest.json",
+    "hash": "453c455953e9b926394c17b5298ec78c"
+  },
+  {
     "file": "other_tutorial/publication_example/index.html",
-    "hash": "d8ac0f5ed3288f819e4e163b51ba16d5"
+    "hash": "8b0d952c54ec10b78769c5367110e33f"
   },
   {
     "file": "saiming/404.png",
@@ -206,6 +214,10 @@
   {
     "file": "saiming/android_2.png",
     "hash": "16ba05d24377dac76d98494fd01144f0"
+  },
+  {
+    "file": "saiming/app_icon.png",
+    "hash": "43a0ac4fe7e69f1c07f4cf9cac219ad1"
   },
   {
     "file": "saiming/content_1.png",
@@ -228,8 +240,12 @@
     "hash": "d2ace8eece05726589a9ab1b4b4cf097"
   },
   {
+    "file": "service-worker.js",
+    "hash": "49711c520501dd180ce273419f98696b"
+  },
+  {
     "file": "sitemap.xml",
-    "hash": "ec959c6c3d2dd0348b8d59ce6ca3ca4f"
+    "hash": "7b007ba63feda3fc791b7329dfaaa11b"
   },
   {
     "file": "stylesheets/extra.css",
@@ -237,50 +253,50 @@
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "71534994985b8822e7633ecca69fcea0"
+    "hash": "304e994bd027e2ec591bfe2c404c0f15"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "77ab95e4305ea6a698e26309945e9a28"
+    "hash": "e2a5ee05497175dce66fe242319d53c0"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
-    "hash": "7999bcdb319aa24f510100513183132d"
+    "hash": "7370b0857855d69c64c005a9fc7b5b9f"
   },
   {
     "file": "tutorial/content_tutorial/index.html",
-    "hash": "0dd8a4570dc7ce9c63528179c5331c73"
+    "hash": "f5e90c82e373a03fde8e9b2f26cb1d3b"
   },
   {
     "file": "tutorial/craftingrecipes_tutorial/index.html",
-    "hash": "4c9b6896753d94705439bf32497f6482"
+    "hash": "4a244648b77abdece555ebdb5d133a4d"
   },
   {
     "file": "tutorial/database_tutorial/index.html",
-    "hash": "336547c0e595987650b853d61b3210a2"
+    "hash": "c80c4d7772e0834ac7731c621a876555"
   },
   {
     "file": "tutorial/preface/index.html",
-    "hash": "3d561947cf00f3a3625352ba6ada7ed8"
+    "hash": "a3b9b8502fcbba10c47a10614dec8d50"
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
-    "hash": "d7d7e60c357fd017c8d3b2d3276c8f90"
+    "hash": "df5ef40639c8820590d1bf4aa9efd05e"
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "54aa0d6a152d448fbfe5ab363cf1b23f"
+    "hash": "025763dda88a38af4fcce7def4cdbac0"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
-    "hash": "3519ae1d7d4f0cb9b73419b21c35a504"
+    "hash": "ed9a3648e16b1624f95ea4342ac8c654"
   },
   {
     "file": "tutorial/windows_tutorial/index.html",
-    "hash": "747cbf8bba2d25c4bde55cf1a1212be3"
+    "hash": "7b8e6afb9638907ddfd6afa79ee77dbb"
   },
   {
     "file": "tutorial/xml_tutorial/index.html",
-    "hash": "827c7cd75289d9d8a21d39e4c3afcfae"
+    "hash": "e89e28c16773e3c96e441c5b31033230"
   }
 ]

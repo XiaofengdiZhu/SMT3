@@ -1,0 +1,19 @@
+{
+    "name"              : "SMT导航",
+    "short_name"        : "SMT导航",
+    "description"       : "SMT导航3",
+    "start_url"         : "./",
+    "display"           : "standalone",
+    "orientation"       : "any",
+    "lang": "zh-cn",
+    "background_color"  : "#FFFFFF",
+    "theme_color"       : "#3f9314",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src"           : "./saiming/app_icon.png",
+            "sizes"         : "512x512",
+            "type"          : "image/png"
+        }
+    ]
+}
