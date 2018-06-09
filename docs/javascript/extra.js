@@ -43,3 +43,11 @@ $("body").on({
 });
 
 document.getElementsByClassName("md-main")[0].style.opacity = "1";
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js', {
+        scope: './'
+    }).catch(function (e) {
+        console.error('Error during service worker registration:', e);
+    });
+}
