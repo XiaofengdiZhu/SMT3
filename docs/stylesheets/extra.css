@@ -2,31 +2,31 @@
     display: none;
 }
 
-.footer-Update{
+.footer-Update {
     font-size: 2rem;
     width: 100%;
     height: 6rem;
     background-color: #EBA01D;
-    color:white;
+    color: white;
 }
 
-.footer-Update-container{
+.footer-Update-container {
     display: block;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
     max-width: 36rem;
     margin: 0 auto;
 }
 
-.footer-Update-innerText{
+.footer-Update-innerText {
     display: inline-block;
     width: calc(100% - 10rem);
     padding: 0.6rem;
     text-align: center;
 }
 
-.footer-Update-button{
+.footer-Update-button {
     display: inline-block;
     width: 9rem;
     padding: 0.6rem;
@@ -34,15 +34,15 @@
     text-align: center;
     border-radius: 2px;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     cursor: pointer;
 }
 
-.footer-Update-button:hover{
+.footer-Update-button:hover {
     background-color: #2f8304;
 }
 
-.footer-Update-button:active{
+.footer-Update-button:active {
     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -73,8 +73,21 @@ header.md-header {
     padding-right: 0;
 }
 
-.md-source__icon{
+.md-source__icon {
     width: 3.6rem;
+}
+
+.md-header-nav__button.md-logo {
+    margin: 0 0 0 .6rem;
+}
+
+.md-nav__button img {
+    width: 64px;
+    height: 48px;
+}
+
+nav.md-tabs.md-tabs--active{
+    box-shadow: 0 0 0.4rem rgba(0,0,0,.1), 0 0.4rem 0.8rem rgba(0,0,0,.2);
 }
 
 /*调整底栏高度和颜色*/
