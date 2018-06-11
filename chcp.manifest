@@ -181,7 +181,7 @@
   },
   {
     "file": "javascript/cordova_extra.js",
-    "hash": "d8b25319680eb460585b9909d38f259a"
+    "hash": "8cc7a35ced870dec50aef6792f821673"
   },
   {
     "file": "javascript/extra.js",
@@ -241,11 +241,11 @@
   },
   {
     "file": "service-worker.js",
-    "hash": "49711c520501dd180ce273419f98696b"
+    "hash": "747db9c7b4a9855b5071921ed11af968"
   },
   {
     "file": "sitemap.xml",
-    "hash": "7b007ba63feda3fc791b7329dfaaa11b"
+    "hash": "d1ef88626997af66096275dd9cedca19"
   },
   {
     "file": "stylesheets/extra.css",

@@ -3,6 +3,6 @@
   "ios_identifier": "com.smt.navigator3",
   "android_identifier": "com.smt.navigator3",
   "update": "start",
-  "content_url": "http://192.168.1.101:8080/",
-  "release": "2018.06.10-01.55.55"
+  "content_url": "https://xiaofengdizhu.github.io/SMT3/",
+  "release": "2018.06.11-18.01.03"
 }
