@@ -1,5 +1,5 @@
 const
-    version = 'build 2018/6/10 1:52',
+    version = 'build 2018/6/11 18:00',
     CACHE = version + '::PWA',
     offlineURL = './assets/no_cached/index.html',
     installFilesEssential = [

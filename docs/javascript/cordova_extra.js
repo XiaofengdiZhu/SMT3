@@ -123,7 +123,7 @@ function installationCallback(error) {
 }
 
 function checkUpdateAvailable() {
-    $.getJSON("http://192.168.1.101:8080/chcp.json", function (data) {
+    $.getJSON("https://xiaofengdizhu.github.io/SMT3/chcp.json", function (data) {
         isUpdateAvailable =  webVersion2Date(data.release) > webVersion2Date(webVersion);
     });
 }

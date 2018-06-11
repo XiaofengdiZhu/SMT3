@@ -3,5 +3,5 @@
   "ios_identifier": "com.smt.navigator3",
   "android_identifier": "com.smt.navigator3",
   "update": "start",
-  "content_url": "http://192.168.1.101:8080/"
+  "content_url": "https://xiaofengdizhu.github.io/SMT3/"
 }

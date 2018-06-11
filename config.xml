@@ -29,7 +29,7 @@
     <plugin name="cordova-plugin-x-toast" spec="^2.6.2" />
     <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
     <chcp>
-        <config-file url="http://192.168.1.101:8080/chcp.json" />
+        <config-file url="https://xiaofengdizhu.github.io/SMT3/chcp.json" />
         <auto-download enabled="false" />
         <auto-install enabled="false" />
     </chcp>
