@@ -26,9 +26,9 @@ function onDeviceReady() {
             if (isBusy) {
                 event.preventDefault();
             }
-            else if(isAppUpdateAvailable){
+            else if (isAppUpdateAvailable) {
                 isBusy = true;
-                window.open("https://www.pgyer.com/EXaZ","_blank");
+                window.open("https://www.pgyer.com/EXaZ", "_blank");
             }
             else if (isUpdateDownloaded) {
                 isBusy = true;
@@ -48,34 +48,34 @@ function onDeviceReady() {
         }
     });
 
-    //获取当前应用和网页版本
-    chcp.getVersionInfo(getLocalVersion);
-
-    //启动时是否已下载更新
-    chcp.isUpdateAvailableForInstallation(function (error, data) {
-        if (error) {
-            checkAppUpdateAvailable();
-            checkUpdateAvailable();
-            setTimeout(function () {
-                if(isAppUpdateAvailable){
-                    $updateText.text("检测到新版本App");
-                    $updateButton.text("下载!");
-                    $updateFooter.show();
-                }
-                else if (isUpdateAvailable) {
-                    $updateText.text("检测到新版本导航");
-                    $updateButton.text("离线!");
-                    $updateFooter.show();
-                }
-            }, 2000);
-            return;
-        }
-        isUpdateDownloaded = true;
-        $updateText.text("已下载新版本导航");
-        $updateButton.text("替换!");
-        $updateFooter.show();
-        chcp.installUpdate(installationCallback);
-    });
+    //首页检测更新
+    if (webUrl.includes("/www/index.html")) {
+        chcp.getVersionInfo(getLocalVersion);
+        chcp.isUpdateAvailableForInstallation(function (error, data) {
+            if (error) {
+                checkAppUpdateAvailable();
+                checkUpdateAvailable();
+                setTimeout(function () {
+                    if (isAppUpdateAvailable) {
+                        $updateText.text("检测到新版本App");
+                        $updateButton.text("下载!");
+                        $updateFooter.show();
+                    }
+                    else if (isUpdateAvailable) {
+                        $updateText.text("检测到新版本导航");
+                        $updateButton.text("离线!");
+                        $updateFooter.show();
+                    }
+                }, 2000);
+                return;
+            }
+            isUpdateDownloaded = true;
+            $updateText.text("已下载新版本导航");
+            $updateButton.text("替换!");
+            $updateFooter.show();
+            chcp.installUpdate(installationCallback);
+        });
+    }
 }
 
 function onMenuButtonDown() {
