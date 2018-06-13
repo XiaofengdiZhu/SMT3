@@ -156,7 +156,6 @@ function checkAppUpdateAvailable() {
     });
 }
 
-//2018.06.02-23.07.00
 function webVersion2Date(str) {
     let array1 = str.split('-');
     let array2 = array1[0].split('.');
