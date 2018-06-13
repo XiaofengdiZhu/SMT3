@@ -181,11 +181,11 @@
   },
   {
     "file": "javascript/cordova_extra.js",
-    "hash": "715283008a9f3f90d2151f2ac556ad2a"
+    "hash": "4bb0a8e5606dddb51b41ca218a33d327"
   },
   {
     "file": "javascript/extra.js",
-    "hash": "579be4f40196254f41d5fc2e02d79171"
+    "hash": "0689b749a446b363ea6ae2032e8ca5c7"
   },
   {
     "file": "javascript/jquery-3.3.1.min.js",
@@ -193,7 +193,7 @@
   },
   {
     "file": "javascript/preload.js",
-    "hash": "b5968bf237e75defdc22c78d554df985"
+    "hash": "4f8dc947cc4a5a9229138ff1f23de1f3"
   },
   {
     "file": "manifest.json",
@@ -241,11 +241,11 @@
   },
   {
     "file": "service-worker.js",
-    "hash": "272e09a33116dcd155da0c3e46bf0f68"
+    "hash": "0aec9f283c5421542298f11a09465d1d"
   },
   {
     "file": "sitemap.xml",
-    "hash": "2e3bed0f77758818ffc511115f2febcb"
+    "hash": "9cbc7ec9c2f91513e21e834632aed44b"
   },
   {
     "file": "stylesheets/extra.css",
