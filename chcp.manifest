@@ -5,115 +5,31 @@
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "b7f2f44084a7699fdec27b741f8b52ae"
+    "hash": "67cd5d29f04b0c40025a044bf6315ca6"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
-    "hash": "19250b41c1c4c3e30c345394cc0edd7f"
+    "hash": "8f40f71eaaa5c353e77ec3efc1b5c1ce"
   },
   {
     "file": "about_SMT/SMT_members/index.html",
-    "hash": "c5607d6a384e28070a4812643af9ae48"
+    "hash": "0eba2c5ec539317d4df0a0bf8a0f69b8"
   },
   {
     "file": "about_SMT/SMT_rules/index.html",
-    "hash": "0408ddcccd4466332bec5ccb24ee49a3"
+    "hash": "027581c36c746cb0e06cfb9f8f12e9c2"
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "da6c348f6eea6d351c743d95a0aa2727"
-  },
-  {
-    "file": "assets/images/favicon.png",
-    "hash": "840f949f01d90907c37b8bdc4cd53304"
-  },
-  {
-    "file": "assets/images/icons/bitbucket.4ebea66e.svg",
-    "hash": "a2278ea9f77df57f2527d402dceaf327"
-  },
-  {
-    "file": "assets/images/icons/github.a4034fb1.svg",
-    "hash": "151f688e14bdc674e192524d4f8b7698"
-  },
-  {
-    "file": "assets/images/icons/gitlab.348cdb3a.svg",
-    "hash": "d80e5efcbf15079432436d8139be5327"
+    "hash": "2a422c7f1613062b620682552be829f7"
   },
   {
     "file": "assets/javascripts/application.b438e6c5.js",
     "hash": "c2abe791677b34e71bb2da4f111daacd"
   },
   {
-    "file": "assets/javascripts/lunr/lunr.da.js",
-    "hash": "2d8d5e00b6a90d6eab382856ce3c4b8e"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.de.js",
-    "hash": "97eab308111a670ce8868aa445d55b3f"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.du.js",
-    "hash": "f81c6a71efa9a272280e50d2fc829aa2"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.es.js",
-    "hash": "9177a27975c518b9821c8417aadb3835"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.fi.js",
-    "hash": "d6ddc0dc78c007d105a0f31915fbb702"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.fr.js",
-    "hash": "8ceb5f66ab57718acfd9c9fdb91932f7"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.hu.js",
-    "hash": "d1f8065c709cadf67cce54606ccdb990"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.it.js",
-    "hash": "14ec525bfa6903294ca4115ef8d5ce9a"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.jp.js",
-    "hash": "eb7f30d57e27b88af4da3289e03fcdde"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.multi.js",
-    "hash": "283d6bbe4f1a9b0f67b29254d69c2529"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.no.js",
-    "hash": "9f4c6c77788d085d8d47c1e1bf372316"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.pt.js",
-    "hash": "8331e5bc18d4dac82b966699043d747c"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.ro.js",
-    "hash": "f380d15e237b34591669aac7e9d528d2"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.ru.js",
-    "hash": "81c08275b749c233a55f76c9f9eccc58"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.stemmer.support.js",
-    "hash": "ff737d2f1322d9ac029872a35a1070f6"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.sv.js",
-    "hash": "b929c5069eacf5658aa92c948000a37f"
-  },
-  {
-    "file": "assets/javascripts/lunr/lunr.tr.js",
-    "hash": "dc85233cc1109f5ccf0fede963e04f6c"
-  },
-  {
-    "file": "assets/javascripts/lunr/tinyseg.js",
-    "hash": "ec4d65ea18358728310e118251398276"
+    "file": "assets/javascripts/lunr/lunr.js",
+    "hash": "87f08d3ae5e57eece4cf750ac6ca8fd7"
   },
   {
     "file": "assets/javascripts/modernizr.1aa3b519.js",
@@ -124,12 +40,8 @@
     "hash": "8b1b2fc62a5410e9cd33c104b1472db7"
   },
   {
-    "file": "assets/stylesheets/application-palette.6079476c.css",
-    "hash": "b2a9733f176cb8d556b37ebd10f8d821"
-  },
-  {
-    "file": "assets/stylesheets/application.8d40d89b.css",
-    "hash": "e9de0f5f68db8073a4b9c2b21a107c43"
+    "file": "assets/stylesheets/application.css",
+    "hash": "7173df1405f34223874239e738fbc6df"
   },
   {
     "file": "favicon.png",
@@ -140,12 +52,12 @@
     "hash": "977439a41f335f8077d8b9ac7a570863"
   },
   {
-    "file": "fonts/font-awesome.min.css",
-    "hash": "a0e784c4ca94c271b0338dfb02055be6"
-  },
-  {
     "file": "fonts/fontawesome-webfont.woff2",
     "hash": "af7ae505a9eed503f8b8e6982036873e"
+  },
+  {
+    "file": "fonts/fonts.css",
+    "hash": "7c60b0a728001e918a9a2c5da07d9fab"
   },
   {
     "file": "fonts/KFOkCnqEu92Fr1Mu51xIIzI.woff2",
@@ -168,20 +80,12 @@
     "hash": "e92cc0fb9e1a7debc138224fd02a462a"
   },
   {
-    "file": "fonts/Material_Icons.css",
-    "hash": "f99bfc309123b88028867c5e25ff1621"
-  },
-  {
-    "file": "fonts/Roboto_Mono.css",
-    "hash": "73f60143ec788d57b24b2ff1bfb47ce3"
-  },
-  {
     "file": "index.html",
-    "hash": "a6017870dd5806362b32ce49254f4779"
+    "hash": "b46a5f550bff96fa8dcecdb6124e8651"
   },
   {
     "file": "javascript/cordova_extra.js",
-    "hash": "9ebb537331343f79dba1a2adab19c8ca"
+    "hash": "d35c4d1145fc4039d846137d67aa8282"
   },
   {
     "file": "javascript/extra.js",
@@ -201,7 +105,7 @@
   },
   {
     "file": "other_tutorial/publication_example/index.html",
-    "hash": "d83939aee56e4d572d181354500409b7"
+    "hash": "c4c19f74e581528c681437a4c721d3b8"
   },
   {
     "file": "saiming/404.png",
@@ -241,11 +145,11 @@
   },
   {
     "file": "service-worker.js",
-    "hash": "ffde9c7a1d10fd0f4791e64634ae9452"
+    "hash": "330726edb56c6d5a1561150a11618783"
   },
   {
     "file": "sitemap.xml",
-    "hash": "0566eedbc8b5cc3038ca40523b3d6bf2"
+    "hash": "7333f758f11453089a7ac5c51b2e56af"
   },
   {
     "file": "stylesheets/extra.css",
@@ -253,50 +157,50 @@
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "01ffe4c13934276c2da86ad6978e225c"
+    "hash": "93da51758ae9c66f330ddd953f781d04"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "93a5033c473f0da49ef7842db1112bec"
+    "hash": "7f58273642d7fe658a0a91e506e836d9"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
-    "hash": "164a401195a43e4667944f2a848207d0"
+    "hash": "0a4dc4b4ce145ec344a0f11f248a5ad5"
   },
   {
     "file": "tutorial/content_tutorial/index.html",
-    "hash": "c82192e6776e59a45887a5d8995207c0"
+    "hash": "cdb4a9cdbd241dbcfd739793b78db68d"
   },
   {
     "file": "tutorial/craftingrecipes_tutorial/index.html",
-    "hash": "6ba479729ad2df3a27b3010f16c467d9"
+    "hash": "5b5a63b2b892c59f302957462be0dd37"
   },
   {
     "file": "tutorial/database_tutorial/index.html",
-    "hash": "56e2539fa47227c0aef2915f1afc3e8d"
+    "hash": "8d1845750c5b3f9b97a466596cb90468"
   },
   {
     "file": "tutorial/preface/index.html",
-    "hash": "77301f7948d0cee640841e1ec864384d"
+    "hash": "a427c9afa059a2391638e0d469e27ec8"
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
-    "hash": "536ec5d6c638ce58f8318b3ded5788b7"
+    "hash": "5fe49d44fdb6fe4aab22ab5c518a05c8"
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "53b52d8a2dace23dbea2d285255cfb30"
+    "hash": "f492111c5b2b6964a609ee60f195ce19"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
-    "hash": "fc70742033fd26859df9c5d5b6c7495c"
+    "hash": "3a2ed42410fb6df8f3bfdc09397e5499"
   },
   {
     "file": "tutorial/windows_tutorial/index.html",
-    "hash": "358772c3e450ecbf5447ca646e3d3618"
+    "hash": "0ec0aac0939d52511a78b05824aa03ee"
   },
   {
     "file": "tutorial/xml_tutorial/index.html",
-    "hash": "0b48fd499359e4dff764cc5570d28225"
+    "hash": "dfff495fded8f6c4d8f5e48250b41f62"
   }
 ]

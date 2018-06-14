@@ -1,5 +1,5 @@
 const
-    version = 'build 2018/6/14 13:20',
+    version = 'build 2018/6/15 1:01',
     CACHE = version + '::PWA',
     offlineURL = './assets/no_cached/index.html',
     installFilesEssential = [
@@ -7,9 +7,8 @@ const
         './manifest.json',
         './assets/javascripts/modernizr.1aa3b519.js',
         './javascript/jquery-3.3.1.min.js',
-        './assets/stylesheets/application.8d40d89b.css',
+        './assets/stylesheets/application.css',
         './javascript/preload.js',
-        './assets/stylesheets/application-palette.6079476c.css',
         './assets/javascripts/application.b438e6c5.js',
         './stylesheets/extra.css',
         './javascript/extra.js'
@@ -17,10 +16,7 @@ const
     installFilesDesirable = [
         './favicon.png',
         './saiming/web_logo.png',
-        './fonts/Roboto_Mono.css',
-        './assets/javascripts/lunr/lunr.stemmer.support.js',
-        './fonts/Material_Icons.css',
-        './fonts/font-awesome.min.css',
+        './fonts/fonts.css',
         './fonts/KFOkCnqEu92Fr1Mu51xIIzI.woff2',
         './fonts/KFOlCnqEu92Fr1MmSU5fBBc4.woff2',
         './fonts/KFOmCnqEu92Fr1Mu4mxK.woff2',
