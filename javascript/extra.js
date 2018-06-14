@@ -44,9 +44,13 @@ $("body").on({
 
 document.getElementsByClassName("md-main")[0].style.opacity = "1";
 
-if (window.location.href.indexOf("file:") !== 0 && 'serviceWorker' in navigator) {
+if (webUrl.indexOf("https:") === 0 && 'serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js', {
         scope: './'
+    }).then(function(){
+        if(isHomepage && isAndroidBrowser){
+            $("#qrcodeForAndroid").hide();
+        }
     }).catch(function (e) {
         console.error('Error during service worker registration:', e);
     });

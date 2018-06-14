@@ -735,10 +735,11 @@
 <h3 id="_4">导航开发<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://github.com/XiaofengdiZhu/SMT3/">SMT3</a> by <a href="https://github.com/XiaofengdiZhu/">销锋镝铸</a></li>
+<li>Logo by <a href="http://tieba.baidu.com/home/main/?un=lixue_jiu">lixue_jiu</a></li>
 <li><a href="http://www.mkdocs.org/">Mkdocs</a> 网页框架</li>
 <li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> 框架主题</li>
-<li>python markdown qrcode adapted to Python 3 by <a href="https://github.com/XiaofengdiZhu/">销锋镝铸</a></li>
-<li><a href="http://cordova.apache.org/">Cordova</a> App打包工具</li>
+<li><a href="https://github.com/XiaofengdiZhu/python-markdown-qrcode">python markdown qrcode adapted to Python 3</a> by <a href="https://github.com/XiaofengdiZhu/">销锋镝铸</a></li>
+<li><a href="http://cordova.apache.org/">Cordova</a> Android版打包</li>
 <li>Hot Code Push Plugin</li>
 <li>Jquery JavaScript库</li>
 <li>AndroidAssetStudio 图标？</li>
@@ -855,11 +856,12 @@ $("article a[href^='http']:not([target])").attr("target","_blank");
       
       <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
       
-        <script src="../../cordova.js"></script>
-      
         <script src="../../javascript/extra.js"></script>
       
       <script>
+          if(webUrl.indexOf("file:") === 0){
+              document.write("<script src='../../cordova.js'><\/script>");
+          }
           if (typeof(cordova) !== "undefined") {
               document.write("<script src='../../javascript/cordova_extra.js'><\/script>");
           }

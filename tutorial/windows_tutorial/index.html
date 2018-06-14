@@ -967,11 +967,12 @@
       
       <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
       
-        <script src="../../cordova.js"></script>
-      
         <script src="../../javascript/extra.js"></script>
       
       <script>
+          if(webUrl.indexOf("file:") === 0){
+              document.write("<script src='../../cordova.js'><\/script>");
+          }
           if (typeof(cordova) !== "undefined") {
               document.write("<script src='../../javascript/cordova_extra.js'><\/script>");
           }

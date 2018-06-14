@@ -894,7 +894,7 @@
 <code>Widgets/</code>存储了所有弹出窗口（灰色背景）和常使用的界面部件的布局文件，格式xml<br />
 <code>Styles/</code> 存储了大部分按钮的布局文件，格式xml  </p>
 <blockquote>
-<p>以上界面布局文件的语言和 <strong>XAML</strong> 非常相似，它是xml的一个子集，通常用在<code>Windows Presentation Foundation（WPF）</code>。<a href="https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/advanced/xaml-syntax-in-detail" target="_blank">点我查看官方文档</a><br />
+<p>以上界面布局文件的语言和 <strong>XAML</strong> 非常相似，它是xml的一个子集，通常用在<code>Windows Presentation Foundation（WPF）</code>。<a href="https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/advanced/xaml-syntax-in-detail" target="_blank">点击此处查看官方文档</a><br />
 在？？？<a href="../界面教程待补充">提高箱子格数mod例子</a>中将有更详尽的说明</p>
 </blockquote>
 <h3 id="_7">模型<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
@@ -1019,11 +1019,12 @@
       
       <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
       
-        <script src="../../cordova.js"></script>
-      
         <script src="../../javascript/extra.js"></script>
       
       <script>
+          if(webUrl.indexOf("file:") === 0){
+              document.write("<script src='../../cordova.js'><\/script>");
+          }
           if (typeof(cordova) !== "undefined") {
               document.write("<script src='../../javascript/cordova_extra.js'><\/script>");
           }
