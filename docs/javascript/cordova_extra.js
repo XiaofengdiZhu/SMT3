@@ -7,6 +7,10 @@ let isUpdateDownloaded = false;
 let webVersion = "1970.01.01-08.00.00";
 let appVersion = "0.0.0";
 
+let fetchUpdateOptions = {
+    'config-file': 'http://survivalcraft.cn/smt3/chcp.json'
+};
+
 let $updateFooter = $(".footer-Update");
 let $updateText = $(".footer-Update-innerText");
 let $updateButton = $(".footer-Update-button");
@@ -38,7 +42,7 @@ function onDeviceReady() {
             else if (isUpdateAvailable) {
                 isBusy = true;
                 $updateButton.text("离线中");
-                chcp.fetchUpdate(fetchUpdateCallback);
+                chcp.fetchUpdate(fetchUpdateCallback, fetchUpdateOptions);
             }
         },
         "hover": function (event) {
@@ -75,7 +79,7 @@ function onDeviceReady() {
             $updateFooter.show();
             chcp.installUpdate(installationCallback);
         });
-        if(isAndroidBrowser){
+        if (isAndroidBrowser) {
             $("#qrcodeForAndroid").hide();
         }
     }
