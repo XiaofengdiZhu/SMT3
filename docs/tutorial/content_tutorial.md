@@ -62,7 +62,7 @@ TimeOfDayButton 163 359 68 64 0 0 0 0
 `Screens/` 存储了所有全屏界面的布局文件，格式xml  
 `Widgets/`存储了所有弹出窗口（灰色背景）和常使用的界面部件的布局文件，格式xml  
 `Styles/` 存储了大部分按钮的布局文件，格式xml  
->以上界面布局文件的语言和 **XAML** 非常相似，它是xml的一个子集，通常用在`Windows Presentation Foundation（WPF）`。<a href="https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/advanced/xaml-syntax-in-detail" target="_blank">点我查看官方文档</a>  
+>以上界面布局文件的语言和 **XAML** 非常相似，它是xml的一个子集，通常用在`Windows Presentation Foundation（WPF）`。<a href="https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/advanced/xaml-syntax-in-detail" target="_blank">点击此处查看官方文档</a>  
 在？？？[提高箱子格数mod例子][9]中将有更详尽的说明
 
 ###模型
