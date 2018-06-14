@@ -163,9 +163,11 @@
           if(webUrl.indexOf("file:") === 0){
               document.write("<script src='{{ base_url }}/cordova.js'><\/script>");
           }
-          if (typeof(cordova) !== "undefined") {
-              document.write("<script src='{{ base_url }}/javascript/cordova_extra.js'><\/script>");
-          }
+      </script>
+	  <script>
+        if (typeof(cordova) !== "undefined") {
+            document.write("<script src='{{ base_url }}/javascript/cordova_extra.js'><\/script>");
+        }
       </script>
     {% endblock %}
     {% block analytics %}

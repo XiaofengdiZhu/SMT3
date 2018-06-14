@@ -144,7 +144,7 @@ function installationCallback(error) {
 }
 
 function checkUpdateAvailable() {
-    $.getJSON("https://xiaofengdizhu.github.io/SMT3/chcp.json", function (data) {
+    $.getJSON("http://survivalcraft.cn/smt3/chcp.json", function (data) {
         isUpdateAvailable = webVersion2Date(data.release) > webVersion2Date(webVersion);
     });
 }
