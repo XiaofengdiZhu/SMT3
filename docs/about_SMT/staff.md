@@ -21,10 +21,11 @@ title: SMT导航-编写人员
 
 ###导航开发
 * [SMT3][9] by [销锋镝铸][10]
+* Logo by [lixue_jiu][4]
 * [Mkdocs][11] 网页框架
 * [Material for MkDocs][12] 框架主题
-* python markdown qrcode adapted to Python 3 by [销锋镝铸][10]
-* [Cordova][13] App打包工具
+* [python markdown qrcode adapted to Python 3][14] by [销锋镝铸][10]
+* [Cordova][13] Android版打包
 * Hot Code Push Plugin
 * Jquery JavaScript库
 * AndroidAssetStudio 图标？
@@ -42,7 +43,7 @@ title: SMT导航-编写人员
 [11]: http://www.mkdocs.org/
 [12]: https://squidfunk.github.io/mkdocs-material/
 [13]: http://cordova.apache.org/
-
+[14]: https://github.com/XiaofengdiZhu/python-markdown-qrcode
 
 <script>
 $("article a[href^='http']:not([target])").attr("target","_blank");

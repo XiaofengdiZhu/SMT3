@@ -2,6 +2,10 @@
     display: none;
 }
 
+.inlineBlock{
+    display: inline-block;
+}
+
 .footer-Update {
     font-size: 2rem;
     width: 100%;

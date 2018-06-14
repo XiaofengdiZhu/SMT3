@@ -49,7 +49,7 @@ function onDeviceReady() {
     });
 
     //首页检测更新
-    if (webUrl.includes("/www/index.html")) {
+    if (isHomepage) {
         chcp.getVersionInfo(getLocalVersion);
         chcp.isUpdateAvailableForInstallation(function (error, data) {
             if (error) {
@@ -75,6 +75,9 @@ function onDeviceReady() {
             $updateFooter.show();
             chcp.installUpdate(installationCallback);
         });
+        if(isAndroidBrowser){
+            $("#qrcodeForAndroid").hide();
+        }
     }
 }
 
