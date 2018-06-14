@@ -1,6 +1,5 @@
 {% if config.extra.social %}
   <div class="md-footer-social">
-    <link rel="stylesheet" href="{{ base_url }}/fonts/font-awesome.min.css">
     {% for social in config.extra.social %}
       <a href="{{ social.link }}" class="md-footer-social__link fa fa-{{ social.type }}" target="_blank"></a>
     {% endfor %}

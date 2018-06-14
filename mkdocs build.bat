@@ -1,2 +1,3 @@
 @echo off
-mkdocs build
+call mkdocs build
+pause
