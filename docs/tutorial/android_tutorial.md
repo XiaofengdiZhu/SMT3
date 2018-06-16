@@ -12,10 +12,15 @@ title: Android基础教程
 ###正版途径
 <a href="http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on Google Play</a>  
 <a href="https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M" target="_blank">Survivalcraft2 on amazon appstore for Android</a>  
-均为3.99美元
+>均为3.99美元
 
 ###其他途径
 <a href="http://m.appchina.com/app/com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on 应用汇</a>  
+<a href="https://tieba.baidu.com/p/5554414557" target="_blank">mod插件版</a>
+>mod插件版可将Mod文件放至`/Survivalcraft/Mods`而不是安装包中进行加载，可大大提高在Android平台开发速率，链接内有使用教程
+
+!!! warning ""
+    以下和之后教程中的游戏Android版都是上述原版
 
 ###提取安装包
 通过以上方式获取游戏后可能安装包未被下载工具保留，有以下两种方法提取：

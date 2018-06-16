@@ -10,6 +10,7 @@
 <a href="https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2" target="_blank">Survivalcraft2 on Microsoft Store</a>（Windows 8.1+、Windows Phone版）
 ###其他途径
 <a href="http://m.appchina.com/app/com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on 应用汇</a>（安卓版）  
+<a href="https://tieba.baidu.com/p/5554414557" target="_blank">mod插件版</a>（安卓版）  
 <a href="https://tieba.baidu.com/p/5201426501" target="_blank">SC with JS 2.1.23</a>（Windows 8.1+版）  
 <a href="http://tieba.baidu.com/f?kw=%E7%94%9F%E5%AD%98%E6%88%98%E4%BA%89&ie=utf-8&tab=good&cid=7" target="_blank">百度贴吧-生存战争吧-精品区-资源下载</a>
 
