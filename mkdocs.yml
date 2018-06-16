@@ -3,7 +3,7 @@ site_author: '销锋镝铸'
 repo_name: 'SMT3'
 repo_url: 'https://github.com/XiaofengdiZhu/SMT3'
 use_directory_urls: false
-site_dir: 'www'
+site_dir: 'mkdocsOutput'
 
 theme:
   name: 'material'
