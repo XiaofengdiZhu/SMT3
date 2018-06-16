@@ -74,7 +74,7 @@ module.exports = function (grunt)
                     {
                         expand: true,
                         cwd: 'mkdocsOutput',
-                        src: ['**/*.js'],
+                        src: ['javascript/*.js','service-worker.js'],
                         dest: 'www/'
                     }
                 ]
