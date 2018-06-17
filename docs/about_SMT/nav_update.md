@@ -8,10 +8,10 @@ https://xiaofengdizhu.github.io/SMT3/
 或 [点击此处直达](https://xiaofengdizhu.github.io/SMT3/)  
 
 !!! hint "支持PWA"
-    以上在线版已支持<a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">PWA</a>技术，在使用较新版本的Chrome浏览器浏览此网站时依次点击`菜单栏`-`添加到主屏幕（Android）/安装到桌面...（Windows）`，即可在没有网络的情况下浏览已经查看过的页面
+    以上在线版已支持<a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">PWA</a>技术，在使用较新版本的Chrome浏览器浏览在线版时依次点击`菜单栏`-`添加到主屏幕（Android）/安装到桌面...（Windows）`，即可在没有网络的情况下浏览已经查看过的页面
 
 ##离线版导航下载
-<a href="https://github.com/XiaofengdiZhu/SMT3/archive/gh-pages.zip" download>通用网页版</a>（解压后使用浏览器打开index.html）  
+<a href="https://github.com/XiaofengdiZhu/SMT3/archive/gh-pages.zip" download>通用网页版</a>（解压后使用浏览器打开index.html，需手动更新）  
 <a href="https://www.pgyer.com/EXaZ" target="_blank">Android版App</a>（首页底部提示更新）
 
 ??? quote "二维码"
