@@ -1,11 +1,11 @@
 [
   {
     "file": "404.html",
-    "hash": "6b8d58d3a29f2e59b8da9538a9b50b4e"
+    "hash": "4a258c75be0d6c341004656cd4d77408"
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "ec039fe7fe44f4795f7bc1f33cbebf1a"
+    "hash": "8a9be6b8d67b37d4eba9d358b5ac8eb9"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
@@ -21,7 +21,11 @@
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "e93de05a7d80ab9f7220fa77f639084b"
+    "hash": "3c7ba04c799cff03ca52ba5077208bd6"
+  },
+  {
+    "file": "assets/check_update/index.html",
+    "hash": "1245c6d713415f70a72da1ee06c92a3b"
   },
   {
     "file": "assets/javascripts/application.b438e6c5.js",
@@ -37,7 +41,7 @@
   },
   {
     "file": "assets/no_cached/index.html",
-    "hash": "d5c94d97070eb025a57d17c81271d601"
+    "hash": "8f3b7f0d34ae432ec34c5cb305f59236"
   },
   {
     "file": "assets/stylesheets/application.css",
@@ -81,11 +85,11 @@
   },
   {
     "file": "index.html",
-    "hash": "230b9bfe8f57cbd1fdcd1c33fb30311d"
+    "hash": "68fd83c11c634a302977e0afe31c0e70"
   },
   {
     "file": "javascript/cordova_extra.js",
-    "hash": "790b35529a08c489497c206f24e1928d"
+    "hash": "d607b87b483b3ebaf1e4bec0dcaf75f5"
   },
   {
     "file": "javascript/extra.js",
@@ -97,7 +101,7 @@
   },
   {
     "file": "javascript/preload.js",
-    "hash": "b48f6ed8f2962e7568b233148f98ab89"
+    "hash": "aeba985a789ca21dad04f5ca0e62a564"
   },
   {
     "file": "manifest.json",
@@ -141,23 +145,23 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "fd548950e70cfbf0a162d424be6d6b61"
+    "hash": "88199ba5ef487da3d8b47885faf6b225"
   },
   {
     "file": "service-worker.js",
-    "hash": "1047a6d2ff9d98c7363ef2701e075507"
+    "hash": "c98d4ed6f72890c79e11b74f0391e163"
   },
   {
     "file": "sitemap.xml",
-    "hash": "38b35b7adb18277ee0a3662aed82e950"
+    "hash": "fb629a8892ef5004ede959b7e2372df8"
   },
   {
     "file": "stylesheets/extra.css",
-    "hash": "add23d8cee59d0f9cf2b8dce08492a65"
+    "hash": "7851c538cb7c051408aa9f316e6974c8"
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "09a79471225c809ed5e31ce1e93560f9"
+    "hash": "01dbaac02e2cbcaa0d13c033ae16d62d"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
@@ -181,7 +185,7 @@
   },
   {
     "file": "tutorial/preface/index.html",
-    "hash": "00155a0b55d624d8379c4d89752eea6f"
+    "hash": "c721745a41d77c9657a6141ce0ac6cc7"
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
@@ -189,7 +193,7 @@
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "2edee5d0d510a49ba378cb25f0559d23"
+    "hash": "4a891d9226095a9e123677c4d97b53a5"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
@@ -197,7 +201,7 @@
   },
   {
     "file": "tutorial/windows_tutorial/index.html",
-    "hash": "84ccb3c244e0a6f5a54ab370744fc2af"
+    "hash": "056322d179b02f2168cbecfc7ceb0bc7"
   },
   {
     "file": "tutorial/xml_tutorial/index.html",

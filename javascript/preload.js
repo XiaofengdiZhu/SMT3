@@ -1,1 +1,1 @@
-"use strict";var isMobile=/(windows phone|symbianos|android|mobile|playbook|ipad|iphone|ipod)/i.test(navigator.userAgent),isAndroidBrowser=!!isMobile&&/android/i.test(navigator.userAgent),webUrl=window.location.href,isHomepage=webUrl.includes("/www/index.html");
+"use strict";var navigatorVersion="3.0.0",isMobile=/(windows phone|symbianos|android|mobile|playbook|ipad|iphone|ipod)/i.test(navigator.userAgent),isAndroidBrowser=!!isMobile&&/android/i.test(navigator.userAgent),webUrl=window.location.href,isHomepage=webUrl.includes("/www/index.html");
