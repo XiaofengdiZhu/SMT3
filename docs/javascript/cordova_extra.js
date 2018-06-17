@@ -11,6 +11,7 @@ let fetchUpdateOptions = {
     'config-file': 'http://survivalcraft.cn/smt3/chcp.json'
 };
 
+let $footer = $("footer.md-footer");
 let $updateFooter = $(".footer-Update");
 let $updateText = $(".footer-Update-innerText");
 let $updateButton = $(".footer-Update-button");
@@ -64,11 +65,13 @@ function onDeviceReady() {
                         $updateText.text("检测到新版本App");
                         $updateButton.text("下载!");
                         $updateFooter.show();
+                        $footer.css("height","17.61rem");
                     }
                     else if (isUpdateAvailable) {
                         $updateText.text("检测到新版本导航");
                         $updateButton.text("离线!");
                         $updateFooter.show();
+                        $footer.css("height","17.61rem");
                     }
                 }, 2000);
                 return;
@@ -77,6 +80,7 @@ function onDeviceReady() {
             $updateText.text("已下载新版本导航");
             $updateButton.text("替换!");
             $updateFooter.show();
+            $footer.css("height","17.61rem");
             chcp.installUpdate(installationCallback);
         });
         if (isAndroidBrowser) {

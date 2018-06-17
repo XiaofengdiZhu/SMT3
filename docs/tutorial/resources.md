@@ -75,6 +75,9 @@
 <a href="https://notepad-plus-plus.org/download/" target="_blank">Notepad++</a>
 >简单、启动快的文本编辑器
 
+<a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>
+>兼具启动快和功能强大的文本编辑器，需安装<a href="https://packagecontrol.io/packages/ChineseLocalizations" target="_blank">Chinese​Localizations</a>进行汉化，注册码自行<a href="https://www.baidu.com/s?ie=UTF-8&wd=sublime+注册码" target="_blank">百度</a>
+
 <a href="http://www.hanzify.org/software/5572.html" target="_blank">Compare It! 汉化</a>
 >非常小巧的文件比较器，同时能对比文件夹
 
