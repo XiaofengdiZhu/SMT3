@@ -14,6 +14,7 @@ theme:
   static_templates:
     - '404.html'
     - 'assets/no_cached/index.html'
+    - 'assets/check_update/index.html'
   feature:
     tabs: true
   palette:

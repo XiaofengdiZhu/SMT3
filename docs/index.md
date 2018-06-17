@@ -30,7 +30,8 @@ title: SMT导航
 </div>
 
 !!! note "版本号"
-    v3.0.0
+    <div id="navigatorVersion">加载中</div>
+    <div id="updateNotice" class="hide">离线版导航<a href="https://xiaofengdizhu.github.io/SMT3/" target="_blank" id="updateLink">点此检查更新</a></div>
 
 !!! warning "警告"
     **转载请注明出处！**
@@ -43,5 +44,10 @@ if(isMobile)
     }
 }else{
     $("#qrcodeForNoMobile").show();
+}
+$("#navigatorVersion").text(navigatorVersion);
+if(webUrl.indexOf("file:") === 0 && webUrl.indexOf("file:///data") !== 0 && webUrl.indexOf("file:///android_asset") !== 0){
+    $("#updateLink").attr("href", "https://xiaofengdizhu.github.io/SMT3/assets/check_update/index.html?postVersion=%22" + navigatorVersion + "%22");
+    $("#updateNotice").show();
 }
 </script>
