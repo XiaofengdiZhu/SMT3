@@ -137,6 +137,7 @@ function fetchUpdateCallback(error, data) {
 function installationCallback(error) {
     isBusy = false;
     if (error) {
+        isUpdateDownloaded = false;
         console.log('Failed to install the update with error code: ' + error.code);
         console.log(error.description);
         $updateText.text("替换新导航版本失败");

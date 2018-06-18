@@ -13,8 +13,8 @@ title: Content解析
 * `BlocksData.txt` 存储了所有方块的大部分属性的类csv文件（以纯文本形式存储表格数据，使用特定的符号分隔字段），可直接用文本编辑器打开并编辑，详细修改教程见[BlocksData解析][4]
   
     !!! note "csv文件"
-        以纯文本形式存储表格数据，使用特定的符号分隔字段  
-        可使用<a href="待补充" target="_blank">Office Excell</a>打开
+        以纯文本形式存储表格数据，使用特定的符号（该文件`;`）分隔字段  
+        可使用<a href="https://products.office.com/zh-cn/excel" target="_blank">Office Excell</a>打开
       
 * `Clothes.xml` 存储了所有衣物数据的xml文件，可直接用文本编辑器编辑，详细修改教程见[Clothes解析][5]
 
