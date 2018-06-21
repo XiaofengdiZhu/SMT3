@@ -4,6 +4,8 @@
 
 ##游戏安装包
 ###正版途径
+>请支持正版！
+
 <a href="http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on Google Play</a>（安卓版）  
 <a href="https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M" target="_blank">Survivalcraft2 on amazon appstore for Android</a>（安卓版）  
 <a href="https://itunes.apple.com/us/app/survivalcraft-2/id1185580782" target="_blank">Survivalcraft2 on App Store</a>（IOS版）  
