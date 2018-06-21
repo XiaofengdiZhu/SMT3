@@ -78,8 +78,11 @@ BedrockBlock;Bedrock;Terrain
 </table>
 
 ##方块属性
-!!! note "例子"
-    如要修改`DirtBlock(泥土方块)`的`MaxStacking(最大背包堆叠)`，此属性在下表中序号是37；在文本编辑器中打开`Blocksdata.txt`后搜索`DirtBlock`，修改其所在行的第37个分号之前的数值即可
+
+!!! note "说明"
+    如要修改`DirtBlock(泥土方块)`的`MaxStacking(最大背包堆叠)`，此属性在下表中序号是37；在文本编辑器中打开`Blocksdata.txt`后搜索`DirtBlock`，修改其所在行的第37个分号之前的数值即可  
+    要快速定位分号位置和批量修改多个方块的属性，可参考[正则表达式教程][2],或使用[Blocksdata编辑器][3]  
+    为方便表格中自动换行，属性名中的大写字母前加上了空格
 
 !!! hint ""
     点击表头展开/收起表格
@@ -100,7 +103,7 @@ BedrockBlock;Bedrock;Terrain
         <tr> <td></td> <td>string</td> <td>Default Display Name</td> <td>默认显示名称</td> <td>游戏中玩家能够看到的方块名字</td> </tr>
         <tr> <td></td> <td>string</td> <td>Default Category</td> <td>默认类别</td> <td>帮助和创造模式物品栏中的方块类别，可自定义新类别</td> </tr>
         <tr> <td></td> <td>string</td> <td>Behaviors</td> <td>行为</td> <td>方块行为，多个行为需用逗号<code>,</code>隔开，详情见
-                <a href="#cont_appendix">附录</a>
+                <a href="#待补充">本章方块行为</a>
             </td> </tr>
         <tr> <td></td> <td>int</td> <td>Display Order</td> <td>显示顺序</td> <td>创造模式物品栏中该方块的显示顺序，越小越靠前</td> </tr>
         <tr> <td></td> <td>Vector3</td> <td>Default Icon Block Offset</td> <td>默认图标方块偏移</td> <td>方块图标的位置偏移</td> </tr>
@@ -125,7 +128,7 @@ BedrockBlock;Bedrock;Terrain
         <tr> <td></td> <td>bool</td> <td>Has Collision Behavior</td> <td>是否有碰撞动作</td> <td>是否触发该方块所有行为中的<code>OnCollide(当碰撞)</code>函数</td> </tr>
         <tr> <td></td> <td>bool</td> <td>Kills When Stuck</td> <td>卡住时杀死</td> <td>“源码”中未发现该属性被使用，可能已被废弃</td> </tr>
         <tr> <td></td> <td>bool</td> <td>Is Fluid Blocker</td> <td>能否阻挡流体</td> <td>流体包括水和岩浆。空气此属性为TRUE时它们就不会乱流了</td> </tr>
-        <tr> <td></td> <td>bool</td> <td>Is Transparent</td> <td>是否透明</td> <td>决定多个功能：方块材质本身透明部分绘制成透明或黑色；是否被下落方块压碎。还会影响地形生成，例如应该玄武岩层生成的方块此属性为”TRUE”时会刷新到地面</td> </tr>
+        <tr> <td></td> <td>bool</td> <td>Is Transparent</td> <td>是否透明</td> <td>决定多个功能：方块材质本身透明部分绘制成透明或黑色；是否被下落方块压碎。还会影响地形生成，例如应该玄武岩层生成的方块此属性为”TRUE”时会刷新到地面、<code>WaterBlock(水)</code>的此属性为“FALSE”时大海表面覆盖满<code>GrassBlock(草)</code></td> </tr>
         <tr> <td></td> <td>int</td> <td>Default Shadow Strength</td> <td>阴影强度</td> <td>和<code>IsTransparent(是否透明)</code>属性关联，<code>IsTransparent</code>为TRUE时该属性需为非负整数，为FALSE时该属性应为-1</td> </tr>
         <tr> <td></td> <td>int</td> <td>Light Attenuation</td> <td>光衰减</td> <td>仅<code>IsTransparent(是否透明)</code>为TRUE时生效，光透过方块时的亮度衰减</td> </tr>
         <tr> <td></td> <td>int</td> <td>Emitted Light Amount</td> <td>发光强度</td> <td>测试发现9时照亮一格，15时照亮7格，以上虽然照亮更大范围，但会出现bug，最大23</td> </tr>
@@ -194,6 +197,19 @@ BedrockBlock;Bedrock;Terrain
 	});
 </script>
 
+##启发例子
+
+* 方块发光  
+要让放置在地图的方块像火把一样发光，需要修改该方块的`EmittedLightAmount(发光强度)`为9~22，`LightAttenuation(光衰减)`大于0
+* 铁砂掌  
+修改所有方块的`DigResilience`为0,。可参考[正则表达式教程][2]教程批量替换，或者使用[Blocksdata编辑器][3]
+* 基岩综合  
+{>>基岩可挖掘，拾取，创造模式提供<<}  
+修改`BedrockBlock(基岩)`的`IsPlaceable(是否可放置)`、`IsGatherable(是否可收集)`为TRUE，`DefaultCreativeData(默认创造模式数据)`、`DigResilience(挖掘抗性)`为0
+* 撸树  
+{>>破坏树干时上面的树干也会被破坏<<}  
+给`OakWoodBlock(橡木)`、`BirchWoodBlock(桦木)`、`SpruceWoodBlock(杉木)`的`Behaviors`加上`, GraveBlockBehavior`
+
 ##方块行为
 为方便说明，以下是`SubsystemBlockBehavior(子系统方块行为)`的简要“源码”，先看看方块行为能做些什么
 
@@ -232,12 +248,15 @@ abstract class SubsystemBlockBehavior : Subsystem
 * 一种是本节提到的在“源码”中方块行为的`HandledBlocks`方法中写入方块的`Value(常被称作ID)`
 * 另一种是在上一节提到的，在`Blocksdata.txt`里方块的`Behaviors`属性中写入方块行为，多个方块行为需要用英文逗号`,`分开。但是很多方块行为无法通过此方法赋予给该方块，可能仍要采用第一种方法
 
-###方块行为
+###方块行为列表
 
 以下是从`Database.xml`中`Database/DatabaseObjects/Folder Name="Abstract"/ProjectTemplate Name="Project"`提取的方块行为列表，对应游戏版本2.1
 
+!!! warning ""
+    注：以下方块行为名称和“源代码”中类名称不全一致，部分“源代码”中存在的方块行为也不在下表
+
 ####表一
-可写入方块`Behaviors`属性的方块行为，以及方块加上该行为后效果
+>可写入方块`Behaviors`属性的方块行为，以及方块加上该行为后效果
 
 * `FertilizerBlockBehavior` 此方块可作为肥料使用，同时将导致不可放置。发现：TallGrassBlock有此属性时，地形生成时该方块下方的土块会一同消失
 * `FireBlockBehavior` 此方块将自燃并消失，并引燃其他可燃物，也可直接点可燃物上表面点燃该物品
@@ -267,7 +286,7 @@ abstract class SubsystemBlockBehavior : Subsystem
 * `HammerBlockBehavior` 此方块将可作为锤子使用
 
 ####表二
-不确定
+>不确定
 
 ```
 SignBlockBehavior
@@ -299,3 +318,5 @@ WoodBlockBehavior
 ```
 
 [1]: content_tutorial.md#_2
+[2]: 待补充
+[3]: resources.md#_16
