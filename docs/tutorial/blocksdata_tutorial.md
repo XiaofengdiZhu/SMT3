@@ -115,7 +115,7 @@ BedrockBlock;Bedrock;Terrain
         <tr> <td></td> <td>float</td> <td>In Hand Scale</td> <td>在手里的大小缩放</td> <td>第三人称视角下手持物品的大小缩放倍数</td> </tr>
         <tr> <td></td> <td>Vector3</td> <td>In Hand Offset</td> <td>在手里的位置偏移</td> <td>第三人称视角下手持物品的位置偏移</td> </tr>
         <tr> <td></td> <td>Vector3</td> <td>In Hand Rotation</td> <td>在手里时旋转角度</td> <td>第三人称视角下手持物品的旋转角度</td> </tr>
-        <tr> <td></td> <td>string</td> <td>Crafting Id</td> <td>合成标识</td> <td>在<code>CraftingRecipes.xml</code>中作为合成材料时方块标识</td> </tr>
+        <tr> <td></td> <td>string</td> <td>Crafting Id</td> <td>合成标识</td> <td>在<code>CraftingRecipes.xml</code>中作为合成原料时方块标识</td> </tr>
         <tr> <td></td> <td>int</td> <td>Default Creative Data</td> <td>默认创造模式数据</td> <td>小于0不提供，反之创造模式提供data为该属性值的方块。data通常包含方块朝向、染色等数据</td> </tr>
         <tr> <td></td> <td>bool</td> <td>Is Collidable</td> <td>是否可碰撞</td> <td>主角或动物等是否可碰撞该方块，为False时则可穿过</td> </tr>
         <tr> <td></td> <td>bool</td> <td>Is Placeable</td> <td>是否可放置</td> <td>通常将该属性原本为FALSE的方块的该属性改成TRUE后虽然可以放置，但需要修改“源代码”才能显现</td> </tr>

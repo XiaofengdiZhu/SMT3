@@ -25,7 +25,7 @@ XML是可扩展标记语言文件的扩展名（后缀），是一种用于标�
 </bookstore>
 ```
 此实例中，第1行的`#!xml <bookstore>`被称作 **根元素**，第2行`#!xml <book category="Fantasy">`和第8行`#!xml <book category="SF" selected>`是根元素的两个 **子元素**，这两个子元素被包含在根元素的 **开始标签**`#!xml <bookstore>`到 **结束标签**`#!xml </bookstore>`之间  
-同理，一个`#!xml <book …>`元素有`#!xml <title …>`、`#!xml <author …>`、`#!<xml year …>`、`#!xml <series …>`四个子元素；对于这些子元素来说，`#!xml <book …>`则是它们的父元素，又因为它们拥有相同的父元素，所以它们互称 **同胞**  
+同理，一个`#!xml <book …>`元素有`#!xml <title …>`、`#!xml <author …>`、`#! <xml year …>`、`#!xml <series …>`四个子元素；对于这些子元素来说，`#!xml <book …>`则是它们的父元素，又因为它们拥有相同的父元素，所以它们互称 **同胞**  
 <br />
 某元素的父元素，或者父元素的父元素，又或者更上级，都可以被称作这个元素的 **祖先**，例如`#!xml <bookstore>`和`#!xml <book category="Fantasy">`都是`#!xml <title lang="en">`的祖先  
 同理，某元素的子元素，或者其子元素的子元素，又或者更下级，都可以被称作这个元素的 **后代**
