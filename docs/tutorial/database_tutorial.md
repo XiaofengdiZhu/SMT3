@@ -1,7 +1,10 @@
 title: Database解析
 #Database解析
 
-<img src="../../saiming/database_4.png" title="生物继承导图" style="max-width: 40%;" onclick="openPhotoSwipe(0);">
+<div style="text-align: center;">
+    <img src="../../saiming/database_1.png" title="点击查看大图" style="max-height: 600px;" onclick="openPhotoSwipe(0);"><br />
+    点击图片查看大图，或<a href="http://pan.baidu.com/share/link?shareid=68742967&uk=2788149454" target="_blank">点击此处下载</a>
+</div>
 
 <link rel="stylesheet" href="../../assets/photoswipe/photoswipe.css">
 <script src="../../assets/photoswipe/photoswipe.min.js"></script> 
@@ -45,9 +48,9 @@ title: Database解析
     function openPhotoSwipe(image_index) {
         var pswpElement = document.querySelectorAll('.pswp')[0];
         var items = [ {
-            src: "../../saiming/database_4.png",
-            w: 1168,
-            h: 2185
+            src: "../../saiming/database_1.png",
+            w: 1105,
+            h: 3064
         } ];
         var options = {
             index: image_index,

@@ -24,7 +24,7 @@ title: Clothes解析
 		vertical-align:middle !important;
 	}
 </style>
-<table style="table-layout:fixed; min-width:50rem;">
+<table style="table-layout:fixed; min-width:54rem;">
     <thead>
         <tr>
             <th style="width: 10rem;word-break: break-all">属性名</th>
