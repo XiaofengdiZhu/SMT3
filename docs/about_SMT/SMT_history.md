@@ -56,7 +56,7 @@ Mod制作主要方向已转移到对源码的修改和添加上，Mod能够实�
 ###x月x日
 SMT导航3.0开发完成，框架基于[Mkdocs][6]，主题[Material for MkDocs][7]，打包器[Cordova][8]
 
-{>>最近三年历史有点安静呢~<<}  
+{>>最近三年历史有点安静呢~<<} 
 
 [1]: http://tieba.baidu.com/home/main/?un=512542248
 [2]: http://tieba.baidu.com/home/main/?un=销锋镝铸

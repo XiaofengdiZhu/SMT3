@@ -42,10 +42,12 @@ markdown_extensions:
       permalink: true
   - footnotes
   - meta
-  - pymdownx.critic
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic
   - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
   - qrcode:
       pixelsize: 6
       lightcolor: '#ffffff'
