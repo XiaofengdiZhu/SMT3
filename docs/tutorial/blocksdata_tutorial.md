@@ -103,7 +103,7 @@ BedrockBlock;Bedrock;Terrain
         <tr> <td></td> <td>string</td> <td>Default Display Name</td> <td>默认显示名称</td> <td>游戏中玩家能够看到的方块名字</td> </tr>
         <tr> <td></td> <td>string</td> <td>Default Category</td> <td>默认类别</td> <td>帮助和创造模式物品栏中的方块类别，可自定义新类别</td> </tr>
         <tr> <td></td> <td>string</td> <td>Behaviors</td> <td>行为</td> <td>方块行为，多个行为需用逗号<code>,</code>隔开，详情见
-                <a href="#待补充">本章方块行为</a>
+                <a href="#_10">本章方块行为</a>
             </td> </tr>
         <tr> <td></td> <td>int</td> <td>Display Order</td> <td>显示顺序</td> <td>创造模式物品栏中该方块的显示顺序，越小越靠前</td> </tr>
         <tr> <td></td> <td>Vector3</td> <td>Default Icon Block Offset</td> <td>默认图标方块偏移</td> <td>方块图标的位置偏移</td> </tr>
@@ -199,14 +199,14 @@ BedrockBlock;Bedrock;Terrain
 
 ##启发例子
 
-* 方块发光  
+###方块发光  
 要让放置在地图的方块像火把一样发光，需要修改该方块的`EmittedLightAmount(发光强度)`为9~22，`LightAttenuation(光衰减)`大于0
-* 铁砂掌  
+###铁砂掌  
 修改所有方块的`DigResilience`为0,。可参考[正则表达式教程][2]教程批量替换，或者使用[Blocksdata编辑器][3]
-* 基岩综合  
+###基岩综合  
 {>>基岩可挖掘，拾取，创造模式提供<<}  
 修改`BedrockBlock(基岩)`的`IsPlaceable(是否可放置)`、`IsGatherable(是否可收集)`为TRUE，`DefaultCreativeData(默认创造模式数据)`、`DigResilience(挖掘抗性)`为0
-* 撸树  
+###撸树  
 {>>破坏树干时上面的树干也会被破坏<<}  
 给`OakWoodBlock(橡木)`、`BirchWoodBlock(桦木)`、`SpruceWoodBlock(杉木)`的`Behaviors`加上`, GraveBlockBehavior`
 
@@ -318,5 +318,5 @@ WoodBlockBehavior
 ```
 
 [1]: content_tutorial.md#_2
-[2]: 待补充
+[2]: regex_tutorial.md
 [3]: resources.md#_16

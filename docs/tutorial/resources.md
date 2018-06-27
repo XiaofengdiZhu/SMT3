@@ -63,15 +63,12 @@
 <a href="https://ibotpeaches.github.io/Apktool/" target="_blank">Apktool</a>
 >在电脑上使用命令行编辑apk文件，需上述JDK8
 
-<a href="" target="_blank">Mono for Android</a>
->待补充链接。给Android版安装包开发新dll需要
-
 <a href="https://www.xyaz.cn/" target="_blank">逍遥安卓模拟器</a>
 >安卓版本已达到5.1的模拟器
 
 ###Content.pak处理
 <a href="https://pan.baidu.com/s/1i53WHyH" target="_blank">SCPaker</a>
->待补充链接。第三代Content.pak解包打包工具，由<a href="http://tieba.baidu.com/home/main/?un=修改是种乐趣" target="_blank">修改是种乐趣</a>基于第一代工具SCPacker开发
+>第三代Content.pak解包打包工具，由<a href="http://tieba.baidu.com/home/main/?un=修改是种乐趣" target="_blank">修改是种乐趣</a>基于第一代工具SCPacker开发
 
 ###文本编辑
 <a href="https://notepad-plus-plus.org/download/" target="_blank">Notepad++</a>
