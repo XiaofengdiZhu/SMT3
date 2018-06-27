@@ -165,15 +165,15 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "2d9b210b2e1e89ad9254f1c197818628"
+    "hash": "9d421a40e488e41f77e1de99dce84d32"
   },
   {
     "file": "service-worker.js",
-    "hash": "02c6523a2e008409e275e638a9a713de"
+    "hash": "15349e569c2a8082a43c80a9d922a68c"
   },
   {
     "file": "sitemap.xml",
-    "hash": "0985617e938d803e19cea5beceed2c98"
+    "hash": "4d3dc5bf934e2f22c5233af57506d453"
   },
   {
     "file": "stylesheets/extra.css",
@@ -185,7 +185,7 @@
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "f8190fc52b75b528a0fce4e80f92d069"
+    "hash": "636279480ec20e735b10d9e172aecb00"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
@@ -209,11 +209,11 @@
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
-    "hash": "6b9170bc6548e1a7048f5d6517fd4b0a"
+    "hash": "a8cf267a886992854a10b90d2df65c18"
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "75ff68881bf8c5c09e416fa012518571"
+    "hash": "0ded052df7368a75a1c591f006f21d1a"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
