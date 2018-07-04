@@ -35,14 +35,14 @@ XML是可扩展标记语言文件的扩展名（后缀），是一种用于标�
 
 ###必须包含
 1. 开始标签和{==对应的==}结束标签，或 **自结束标签**
-    * `标签` 由`<`开头、中间内容、`>`结尾组成
-    * `开始标签` 特点是标签中没有`/`，例如上例中的`#!xml <bookstore>`、`#!xml <book category="Fantasy">`等
-    * `结束标签` 特点是标签开头是`</`，例如上例中的`#!xml </bookstore>`、`#!xml </book>`等
-    * `自结束标签` 特点是标签结尾是`/>`，而开头不是`</`，例如上例中的`#!xml <series order="7" />`等。因为它本身只有一个标签，因此无法直接将子元素、文本包含入内
-2. 元素名称，紧贴开头`<`的一段字符，例如`#!xml <book category="SF" selected>`中的`book`
+    * `标签` 由<code class="codehilite"><span class="nt">&lt;</span></code>开头、中间内容、<code class="codehilite"><span class="nt">&gt;</span></code>结尾组成
+    * `开始标签` 特点是标签中没有<code class="codehilite"><span class="nt">/</span></code>，例如上例中的`#!xml <bookstore>`、`#!xml <book category="Fantasy">`等
+    * `结束标签` 特点是标签开头是<code class="codehilite"><span class="nt">&lt;/</span></code>，例如上例中的`#!xml </bookstore>`、`#!xml </book>`等
+    * `自结束标签` 特点是标签结尾是<code class="codehilite"><span class="nt">/&gt;</span></code>，而开头不是<code class="codehilite"><span class="nt">&lt;/</span></code>，例如上例中的`#!xml <series order="7" />`等。因为它本身只有一个标签，因此无法直接将子元素、文本包含入内
+2. 元素名称，紧贴开头<code class="codehilite"><span class="nt">&lt;</span></code>的一段字符，例如`#!xml <book category="SF" selected>`中的<code class="codehilite"><span class="nt">book</span></code>
 
 ###不一定包含
-1. `属性` 例如上例中`#!xml <book category="SF" selected>`的`#!javascript category="SF"`和`#!javascript selected`，其中`category`和`selected`是 **属性名称**，`Fantasy`是属性`category`的 **属性值**。属性一定要有属性名称但不一定要有属性值；当有属性值时，在属性名称后面加上`=`后接放在两个英文引号`"`中间的属性值。多个属性用空格分开
+1. `属性` 例如上例中`#!xml <book category="SF" selected>`的<code class="codehilite"><span class="na">category=</span><span class="s">&quot;SF&quot;</span></code>和<code class="codehilite"><span class="err">selected</span></code>，其中<code class="codehilite"><span class="na">category</span></code>和<code class="codehilite"><span class="err">selected</span></code>是 **属性名称**，<code class="codehilite"><span class="s">SF</span></code>是属性<code class="codehilite"><span class="na">category</span></code>的 **属性值**。属性一定要有属性名称但不一定要有属性值；当有属性值时，在属性名称后面加上<code class="codehilite"><span class="na">=</span></code>后接放在两个英文引号<code class="codehilite"><span class="s">"</span></code>中间的属性值。多个属性用空格分开
 2. `文本` 位于开始标签和结束标签之间的非标签字符，例如上例中`#!xml <year>1950</year>`的`1950`
 3. 子元素和后代元素
 
