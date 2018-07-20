@@ -1,6 +1,9 @@
 title: Database解析
 #Database解析
 
+!!! failure "未完成"
+    页面未完成，<a href="https://lzm956902416.github.io/SMT/database_tutorial.html" target="_blank">点击此处</a>前往查看旧版
+
 <div style="text-align: center;">
     <img src="../../saiming/database_1.png" title="点击查看大图" style="max-height: 600px;" onclick="openPhotoSwipe(0);"><br />
     点击图片查看大图，或<a href="http://pan.baidu.com/share/link?shareid=68742967&uk=2788149454" target="_blank">点击此处下载</a>

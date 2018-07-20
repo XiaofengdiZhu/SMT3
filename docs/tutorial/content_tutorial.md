@@ -89,5 +89,5 @@ TimeOfDayButton 163 359 68 64 0 0 0 0
 [6]: xml_tutorial.md
 [7]: craftingrecipes_tutorial.md
 [8]: database_tutorial.md
-[9]: 界面教程待补充
+[9]: ../other_tutorial/expand_backpack_example.md
 [10]: resources.md#_7
