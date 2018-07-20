@@ -105,7 +105,7 @@ header.md-header {
 }
 
 .md-nav__title:after {
-    content: "总目录";
+    content: "上一级";
     display: none;
 }
 
