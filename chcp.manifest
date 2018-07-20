@@ -117,7 +117,7 @@
   },
   {
     "file": "javascript/preload.js",
-    "hash": "aeba985a789ca21dad04f5ca0e62a564"
+    "hash": "20e482f788c40584e4737ee1326e84c1"
   },
   {
     "file": "manifest.json",
@@ -177,7 +177,7 @@
   },
   {
     "file": "service-worker.js",
-    "hash": "b1ae126593e4b3e42abefdfd466b3b63"
+    "hash": "959264cfb10490ae75643496ef88cbe9"
   },
   {
     "file": "sitemap.xml",
