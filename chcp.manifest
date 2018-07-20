@@ -5,23 +5,23 @@
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "2259f2ffcbd026b085ae2f54b4b0560e"
+    "hash": "07eb972bd522da6d4ead09b59183da5f"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
-    "hash": "dfe9a17724eda63e79d004cd5913d427"
+    "hash": "7af01c18f8cf5e23a877bb85fa0a32c8"
   },
   {
     "file": "about_SMT/SMT_members/index.html",
-    "hash": "e548b1c3780da54c7f36b6d7cf1c972b"
+    "hash": "fd440cb537b308f90e33a64bacc7b8ba"
   },
   {
     "file": "about_SMT/SMT_rules/index.html",
-    "hash": "3e552e220d97ce1fa47661a6cb89eb72"
+    "hash": "51968f51625528a9d4a877488e906213"
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "556bd89429a792e82e2cc93703aad51c"
+    "hash": "10a6867d0996577785857afc7b3fa034"
   },
   {
     "file": "assets/check_update/index.html",
@@ -101,7 +101,7 @@
   },
   {
     "file": "index.html",
-    "hash": "cbc709f3c6c3697f4de9ba3c0457ff93"
+    "hash": "45b339ad9da513999b7d3503b5b37295"
   },
   {
     "file": "javascript/cordova_extra.js",
@@ -124,8 +124,16 @@
     "hash": "453c455953e9b926394c17b5298ec78c"
   },
   {
+    "file": "other_tutorial/add_block_example/index.html",
+    "hash": "3561debab28e358e74b0511da5a63617"
+  },
+  {
+    "file": "other_tutorial/expand_backpack_example/index.html",
+    "hash": "c01b844623ce7adaf049282d13ac09ee"
+  },
+  {
     "file": "other_tutorial/publication_example/index.html",
-    "hash": "938925d79ddc737be928836acd70b0be"
+    "hash": "3808eebac7cc8308df268ca17fd8c9b2"
   },
   {
     "file": "saiming/404.png",
@@ -165,66 +173,66 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "9d421a40e488e41f77e1de99dce84d32"
+    "hash": "fd85dfbdf552856b7a9dac8a7fae0bc4"
   },
   {
     "file": "service-worker.js",
-    "hash": "15349e569c2a8082a43c80a9d922a68c"
+    "hash": "abdf9f0687fc7c70dbaf50515e6a9a5e"
   },
   {
     "file": "sitemap.xml",
-    "hash": "4d3dc5bf934e2f22c5233af57506d453"
+    "hash": "922a100b6f8a259f4f90ca2bbcb59692"
   },
   {
     "file": "stylesheets/extra.css",
-    "hash": "7851c538cb7c051408aa9f316e6974c8"
+    "hash": "bd095ec7d0956b5d3bc387a8f7d508d5"
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "36b917cfb218a857a9348813f8904552"
+    "hash": "d41e6cee7006aaf992285893b1bf1711"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "636279480ec20e735b10d9e172aecb00"
+    "hash": "3dcc46bc0bcd7cf7d0507b1ae0297f7d"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
-    "hash": "b0254177fa91b7a57c47fc3a044827d8"
+    "hash": "00c26a64f096b81704670b47e4571458"
   },
   {
     "file": "tutorial/content_tutorial/index.html",
-    "hash": "828a723a33ba37fe2497210e38755403"
+    "hash": "0d413ee3b34b80db469bdd7bd67c1504"
   },
   {
     "file": "tutorial/craftingrecipes_tutorial/index.html",
-    "hash": "d97a456d85ab371e71797eb3277e5be1"
+    "hash": "07f34f10d870a48e60d79b516bfdd707"
   },
   {
     "file": "tutorial/database_tutorial/index.html",
-    "hash": "6f8c307d6f2da81d4ab88fdf790cee7a"
+    "hash": "eeb91035406cc9a71e67e82525999252"
   },
   {
     "file": "tutorial/preface/index.html",
-    "hash": "00538a73a7c1b0073f3f8303cf7b2428"
+    "hash": "c4adc4a2954d2b4d5ef1a09e77125b36"
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
-    "hash": "a8cf267a886992854a10b90d2df65c18"
+    "hash": "ccb3feccfd4db082ec85eaf80f835986"
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "0ded052df7368a75a1c591f006f21d1a"
+    "hash": "1d9056684ceb89742113407ce018719d"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
-    "hash": "6ee5ee2059e3b5585d673622d67e0053"
+    "hash": "3338cbfb45105100ea11df459ed70505"
   },
   {
     "file": "tutorial/windows_tutorial/index.html",
-    "hash": "dbeafa5c2810a2a369620d0a06b1e0ce"
+    "hash": "5965be3278cab9d1a773ae03cc4a798e"
   },
   {
     "file": "tutorial/xml_tutorial/index.html",
-    "hash": "488b80b780431fb74b9f61143befb09b"
+    "hash": "4cd4dabcf52a9d8af46ea8f46ef9c401"
   }
 ]
