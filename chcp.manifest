@@ -5,7 +5,7 @@
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "07eb972bd522da6d4ead09b59183da5f"
+    "hash": "e4e26f1a58602d8867bde87d5f1ad833"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
@@ -21,7 +21,7 @@
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "10a6867d0996577785857afc7b3fa034"
+    "hash": "1e616b577bc3d56562e1364665647fd6"
   },
   {
     "file": "assets/check_update/index.html",
@@ -101,7 +101,7 @@
   },
   {
     "file": "index.html",
-    "hash": "45b339ad9da513999b7d3503b5b37295"
+    "hash": "211a09abd5ca94284a75bb49a8e1df80"
   },
   {
     "file": "javascript/cordova_extra.js",
@@ -117,7 +117,7 @@
   },
   {
     "file": "javascript/preload.js",
-    "hash": "20e482f788c40584e4737ee1326e84c1"
+    "hash": "b0615c3158f31bd86c5ec1509b8cdcdb"
   },
   {
     "file": "manifest.json",
@@ -148,6 +148,30 @@
     "hash": "16ba05d24377dac76d98494fd01144f0"
   },
   {
+    "file": "saiming/android_3.png",
+    "hash": "a1f291e394e7aa9ea2375ae482b9a54e"
+  },
+  {
+    "file": "saiming/android_4.png",
+    "hash": "c32bbb54e19c700869ebe18538d80bf0"
+  },
+  {
+    "file": "saiming/android_5.png",
+    "hash": "feb7ce2bc2983cb7ed32504bfcba3b8a"
+  },
+  {
+    "file": "saiming/android_6.png",
+    "hash": "8c4c2d973ecbeca9d2c7c058a0b2ba83"
+  },
+  {
+    "file": "saiming/android_7.png",
+    "hash": "271bf9b4dfaa79a38b4dbe0e3173b091"
+  },
+  {
+    "file": "saiming/android_8.png",
+    "hash": "8e3545fe1c2cb34cb5ca74244078fd84"
+  },
+  {
     "file": "saiming/app_icon.png",
     "hash": "43a0ac4fe7e69f1c07f4cf9cac219ad1"
   },
@@ -173,15 +197,15 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "fd85dfbdf552856b7a9dac8a7fae0bc4"
+    "hash": "042f7accad9c527388d77c20e2255dbb"
   },
   {
     "file": "service-worker.js",
-    "hash": "959264cfb10490ae75643496ef88cbe9"
+    "hash": "12c6a76d6e661263fcfde7210ae7f60b"
   },
   {
     "file": "sitemap.xml",
-    "hash": "922a100b6f8a259f4f90ca2bbcb59692"
+    "hash": "8a18abbd6bcd34d8164589710254490e"
   },
   {
     "file": "stylesheets/extra.css",
@@ -189,11 +213,11 @@
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "d41e6cee7006aaf992285893b1bf1711"
+    "hash": "7ba0cabb159e7a2222d9ad89ccc77199"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "3dcc46bc0bcd7cf7d0507b1ae0297f7d"
+    "hash": "36059c667c4631a1089c92d15cdd8b4c"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
@@ -221,7 +245,7 @@
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "1d9056684ceb89742113407ce018719d"
+    "hash": "568b8913447cd66e2615cf7ec67d7b04"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
