@@ -1,6 +1,6 @@
 #资源下载整合
 >本章由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>整理、推荐  
-点击标题打开下载页
+点击小标题打开下载页
 
 ##游戏安装包
 ###正版途径

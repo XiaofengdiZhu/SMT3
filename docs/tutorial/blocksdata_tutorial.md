@@ -12,7 +12,7 @@ title: BlocksData解析
   
 !!! note "csv文件"
     以纯文本形式存储表格数据，使用特定的符号（该文件`;`）分隔字段  
-    可使用<a href="https://products.office.com/zh-cn/excel" target="_blank">Office Excell</a>打开
+    可使用<a href="https://products.office.com/zh-cn/excel" target="_blank">Office Excel</a>打开
 
 本教程将详细讲解该文件的文件结构和内容
 

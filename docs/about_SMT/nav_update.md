@@ -27,7 +27,7 @@ https://xiaofengdizhu.github.io/SMT3/
 
 ##发布版本
 ###3.0.0
->更新时间：2018年x月x日
+>更新时间：2018年7月21日
 
 待补充
 

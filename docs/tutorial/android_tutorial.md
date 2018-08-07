@@ -40,10 +40,10 @@ title: Android基础教程
 4. 从右向左滑动屏幕，进入任意你认为方便的文件夹，粘贴
 
 !!! hint ""
-    以下教程以操作较为简单的[APKCrack][1]为例
+    以下教程以操作较为简单的[APKCrack][1]为例  
     此教程使用的游戏安装包版本是2.1.14
     
-##修改、增加文件
+##安装包结构
 安装包内部分文件和文件夹说明：
 
 * `assemblies/` 游戏动态链接库（**dll**）文件夹，添加新dll教程见[“源代码”教程][7]
@@ -52,6 +52,26 @@ title: Android基础教程
 * `assets/Content.pak` 包含游戏 **数据**（例如方块属性、生物属性、合成表）和 **资源**（例如图片、声音、模型）的简单打包文件，可使用[SCPaker][4]解包后修改，此文件详细解析见[Content解析][5]
 * `res/` 游戏桌面图标文件夹，三个不同分辨率的文件夹内图标都要替换成与其分辨率一致的图标
 * `AndroidMainfest.xml` 安装包信息，可修改游戏名称、包名，下有教程[制作共存][6]
+
+<style>.AF{max-width: 480px;margin-top: 20px;margin-bottom: 20px;}</style>
+##增加文件
+1. 使用[APKCrack][1]找到游戏安装包  
+<center><div class="AF">![](../saiming/android_3.png)</div></center>  
+2. 点击上图中游戏安装包`Survivalcraft 2_2.1.14.0.apk`，弹出如下窗口，点击`查看`  
+<center><div class="AF">![](../saiming/android_4.png)</div></center>  
+3. 进入到安装包中想添加文件的位置，点击如下所示的右上角图标，最后在弹窗中点击你要添加的文件即可
+<center><div class="AF">![](../saiming/android_5.png)</div></center>  
+4. 如果无法安装，请先尝试卸载已安装的游戏，再重新安装，注意备份游戏存档
+5. 如果以上步骤后仍然无法安装，点击第2步图中的`签名`，弹出窗口，点击`签名`，安装新出现的安装包`Survivalcraft 2_2.1.14.0_sign.apk`
+6. 如果以上步骤后仍然无法安装，说明该文件夹已损坏，建议使用最后一次能正常安装的安装包重新以上步骤
+
+##修改文件
+步骤基本和[增加文件][#_8]一致，不同点在于第3步：  
+依次点击安装包中要被替换文件右侧的方框`□`，右上角三点，`替换`，最后在弹窗中点击你要替换的文件即可
+<center><div class="AF">![](../saiming/android_6.png)</div></center>  
+<center><div class="AF">![](../saiming/android_7.png)</div></center>  
+**或** 长按安装包中要被替换文件，弹出如下窗口，`替换`，最后在弹窗中点击你要替换的文件即可
+<center><div class="AF">![](../saiming/android_8.png)</div></center>  
 
 ##测试和发布
 ###测试运行
