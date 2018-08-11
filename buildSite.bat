@@ -1,5 +1,3 @@
 @echo off
-call mkdocs build
-call grunt
-call cordova-hcp build
+call grunt buildSite
 pause

@@ -1,3 +1,3 @@
 @echo off
-call cordova build android
+call grunt buildAndroid
 pause

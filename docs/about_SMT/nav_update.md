@@ -29,10 +29,17 @@ https://xiaofengdizhu.github.io/SMT3/
 ###3.0.0
 >更新时间：2018年7月21日
 
-待补充
+* 导航内容
+    1. 教程和资源全面升级至对应游戏2.1
+    2. 全面润色文字，统一用语，顺序重排
+* 网页相关
+    1. 完全重做，使用新的框架，祥见[编写人员-导航开发](staff.md#_4)
+* 待完成
+    1. 部分页面未完成，会提示前往旧版查看
+    2. [序](../tutorial/preface.md)的`学习地图`未制作
 
 !!! note ""
-    3.0.0开始由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>换用以上全新的框架和技术进行开发
+    3.0.0网页开始由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>使用新第三方框架开发
     2.x.x.x网页框架由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=lzm956902416&ie=utf-8" target="_blank">lzm956902416</a>开发
 
 ###2.9.9

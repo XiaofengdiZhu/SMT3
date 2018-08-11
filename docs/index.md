@@ -1,5 +1,6 @@
 title: SMT导航
 #简介
+
 <center style="zoom:0.8">![Material for MkDocs](saiming/logo_1.png)  </center>
 `Survivalcraft Mods & Textures`简称SMT、SMT组或 {--杀马特--} ，为<a href="https://tieba.baidu.com/f?kw=生存战争" target="_blank">生存战争吧</a>官方组织之一  
 **宗旨**：深入研究Survivalcraft，使游戏更加有趣，多样化  
@@ -7,7 +8,10 @@ title: SMT导航
 ---
 
 <center>
-#[点击此处开始学习制作MOD！](tutorial/preface.md) 
+    <h1 id="mod">
+        <a href="tutorial/preface/index.html">点击此处开始学习制作MOD！</a>
+        <a class="headerlink" href="#mod" title="Permanent link">¶</a>
+    </h1>
 </center>
 <div id="qrcodeForNoMobile" class="hide">
 
