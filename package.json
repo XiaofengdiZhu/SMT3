@@ -15,6 +15,7 @@
         "cordova-plugin-statusbar": "^2.4.2",
         "cordova-plugin-whitelist": "^1.3.3",
         "cordova-plugin-x-toast": "^2.6.2",
+        "grunt-json-minify": "^1.1.0",
         "grunt-shell": "git+https://github.com/sindresorhus/grunt-shell.git",
         "grunt-text-replace": "git+https://github.com/yoniholmes/grunt-text-replace.git",
         "node-cmd": "git+https://github.com/RIAEvangelist/node-cmd.git"
@@ -40,6 +41,7 @@
         "grunt-contrib-cssmin": "^2.2.1",
         "grunt-contrib-htmlmin": "^2.4.0",
         "grunt-contrib-uglify-es": "^3.3.0",
+        "grunt-json-minify": "^1.1.0",
         "time-grunt": "^1.4.0",
         "grunt-shell": "^2.1.0"
     }

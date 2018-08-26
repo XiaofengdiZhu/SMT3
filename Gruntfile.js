@@ -75,19 +75,26 @@ module.exports = function(grunt) {
                 }]
             }
         },
+        //压缩json
+        'json-minify': {
+            build: {
+                files: 'www/**/*.json'
+            }
+        },
+        //其他CMD命令
         shell: {
             buildMkdocs: {
                 command: 'mkdocs build'
             },
-            buildCordovaHcp:{
+            buildCordovaHcp: {
                 command: 'cordova-hcp build'
             },
-            buildAndroid:{
+            buildAndroid: {
                 command: 'cordova build android'
             }
         },
         concurrent: {
-            build: ['htmlmin', 'cssmin', 'uglify']
+            build: ['htmlmin', 'cssmin', 'uglify', 'json-minify']
         }
     });
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -95,9 +102,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify-es');
+    grunt.loadNpmTasks('grunt-json-minify');
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-shell');
-    grunt.registerInitTask('default', ['clean:build', 'copy:build', 'htmlmin', 'cssmin', 'uglify']);
+    grunt.registerInitTask('default', ['clean:build', 'copy:build', 'htmlmin', 'cssmin', 'uglify', 'json-minify']);
     grunt.registerInitTask('initiate', ['shell:buildMkdocs', 'clean:initiate', 'copy:initiate']);
     grunt.registerInitTask('multithreading', ['clean:build', 'copy:build', 'concurrent']); //文档还不够多和大，还不需要使用
     grunt.registerInitTask('buildMkdocs', ['shell:buildMkdocs']);
