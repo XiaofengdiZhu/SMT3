@@ -4,7 +4,7 @@ title: XML教程
 >本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写，主要参考[XML教程 | 菜鸟教程](http://www.runoob.com/xml/xml-tutorial.html){: target="\_blank" }
 
 ##简介
-XML是可扩展标记语言文件的扩展名（后缀），是一种用于标记电子文件使其具有结构性的标记语言，被用于传输与存储数据。`Content.pak`中多个重要文件都是XML文件，因此需要深刻地理解这种文件。
+XML是可扩展标记语言文件的扩展名（后缀），是一种用于标记电子文件使其具有结构性的标记语言，被用于传输与存储数据。`Content.pak`中多个重要文件都是XML文件，因此需要深刻地理解这种文件
 
 ##树结构
 先看以下XML实例

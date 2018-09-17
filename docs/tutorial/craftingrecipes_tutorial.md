@@ -6,8 +6,14 @@ title: CraftingRecipes解析
 !!! warning ""
     请务必先阅读[XML教程][1]
 
+##前言
+在之前的[Content解析][2]中，提到：
+>`CraftingRecipes.xml` 存储了所有合成表的xml文件
+
+本教程将详细讲解该文件的文件结构和内容
+
 ##Recipe元素
-该文件根元素`#!xml <Recipes>`下的多个子元素的元素名称均用来表达分类，这些“分类”元素下的众多元素名为`Recipe`的每一个元素，都存储着一个游戏中的合成表
+该xml文件根元素`#!xml <Recipes>`下的多个子元素的元素名称均用来表达分类，这些“分类”元素下的众多元素名为`Recipe`的每一个元素，都存储着一个游戏中的合成表
 下面是其中一个元素名为`Recipe`的元素：
 ```xml
 <Recipe Result="StonePickaxeBlock" ResultCount="1" RequiredHeatLevel="0" a="stick" b="cobblestone" Description="Make a stone tool">
@@ -93,3 +99,4 @@ title: CraftingRecipes解析
 </table>
 
 [1]: xml_tutorial.md
+[2]: content_tutorial.md#_2

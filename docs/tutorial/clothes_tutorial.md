@@ -6,8 +6,14 @@ title: Clothes解析
 !!! warning ""
     请务必先阅读[XML教程][1]
 
+##前言
+在之前的[Content解析][2]中，提到：
+>`Clothes.xml` 存储了所有衣物数据的xml文件，可直接用文本编辑器编辑
+
+本教程将详细讲解该文件的文件结构和内容
+
 ##ClothingData元素
-该文件根元素`#!xml <Clothes>`下的众多元素名为`ClothingData`的每一个子元素，都存储着游戏中一件衣物
+该xml文件根元素`#!xml <Clothes>`下的众多元素名为`ClothingData`的每一个子元素，都存储着游戏中一件衣物
 下面是其中一个元素名为`ClothingData`的元素：
 ```xml
   <ClothingData Index="0" DisplayName="Old Pants" Slot="Legs"
@@ -114,3 +120,4 @@ title: Clothes解析
 
 
 [1]: xml_tutorial.md
+[2]: content_tutorial.md#_2
