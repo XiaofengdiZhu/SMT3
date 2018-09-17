@@ -43,6 +43,7 @@ markdown_extensions:
   - footnotes
   - meta
   - markdown.extensions.sane_lists
+  - markdown.extensions.attr_list
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.critic

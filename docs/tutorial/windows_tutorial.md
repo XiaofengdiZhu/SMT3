@@ -1,7 +1,7 @@
 title: Windows基础教程
 #Windows基础教程
 
->本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 ##所需工具
 * Windows 8.1及以上设备
@@ -9,11 +9,11 @@ title: Windows基础教程
 
 ##获取游戏
 ###正版途径
-<a href="https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2" target="_blank">Survivalcraft2 on Microsoft Store</a>  
+[Survivalcraft2 on Microsoft Store](https://www.microsoft.com/zh-cn/store/p/survivalcraft-2/9phc48p58nb2){: target="\_blank" }  
 >3.99美元，支持`支付宝`支付人民币。可能现在已经不能用于Mod开发。
 
 ###SC with JS
-<a href="https://pan.baidu.com/share/link?shareid=3319882865&uk=2788149454" target="_blank">百度网盘下载</a>  
+[百度网盘下载](https://pan.baidu.com/share/link?shareid=3319882865&uk=2788149454){: target="\_blank" }  
 >按照安装包内说明安装完成后，通过`开始菜单 - Survivalcraft 2 Cracked`打开游戏  
 因为游戏打开时将直接读取安装位置的文件，所以编辑此处文件后重新打开游戏能立即看到效果，非常适合Mod开发，而且可以和正版共存  
 

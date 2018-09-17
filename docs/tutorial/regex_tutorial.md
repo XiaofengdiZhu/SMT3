@@ -1,13 +1,13 @@
 title: 正则表达式教程
 #正则表达式教程
 
->本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 ##前言
 正则表达式使用单个字符串来描述、匹配一系列符合某个句法规则的字符串。在很多文本编辑器里，正则表达式通常被用来检索、替换那些符合某个模式的文本，注意此功能一般默认是关闭的，需要手动开启  
 只要了解了基础的正则表达式知识，就能大大提高批量修改文本的效率  
 在多数手机端文本编辑器中，正则表达式功能是缺失或不完整的，如果发现你使用的文本编辑器功能不完整，建议使用PC端的[Sublime Text][1]、[Notepad++][1]  
-更加详细的介绍和教程可参考：<a href="https://baike.baidu.com/item/正则表达式" target="_blank">正则表达式_百度百科</a>、<a href="http://www.runoob.com/regexp/regexp-tutorial.html" target="_blank">正则表达式 - 教程 | 菜鸟教程</a>
+更加详细的介绍和教程可参考：[正则表达式_百度百科](https://baike.baidu.com/item/正则表达式){: target="\_blank" }、[正则表达式 - 教程 | 菜鸟教程](http://www.runoob.com/regexp/regexp-tutorial.html){: target="\_blank" }
 
 ##常用符号
 

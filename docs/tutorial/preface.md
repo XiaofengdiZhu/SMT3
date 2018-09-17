@@ -21,9 +21,9 @@ title: 序 - Mod教程
 在目录第一部分“关于SMT”的 [导航更新&离线][7]中，可以下载支持热更新的Android App安装到你的Android设备中，或者需要手动更新的通用离线版，即可无需网络随时随地地阅读本导航
 
 !!! hint "支持PWA"
-    另外，本导航在线版已支持<a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">PWA</a>技术，在使用较新版本的Chrome浏览器浏览在线版时依次点击`菜单栏`-`添加到主屏幕（Android）/安装到桌面...（Windows）`，即可在没有网络的情况下浏览已经查看过的页面
+    另外，本导航在线版已支持[PWA](https://developers.google.com/web/progressive-web-apps/){: target="\_blank" }技术，在使用较新版本的Chrome浏览器浏览在线版时依次点击`菜单栏`-`添加到主屏幕（Android）/安装到桌面...（Windows）`，即可在没有网络的情况下浏览已经查看过的页面
 
-最后，如果你在Mod制作上遇到任何问题或希望交流心得体会，欢迎加入QQ群-<a href="http://shang.qq.com/wpa/qunwpa?idkey=ff7d30bde77e41883745af6608e898c34b5fd5509e3d63fb7a1aa97425709657" target="_blank">SC MOD制作交流群(SMT)</a>（群号302758716）  
+最后，如果你在Mod制作上遇到任何问题或希望交流心得体会，欢迎加入QQ群-[SC MOD制作交流群(SMT)](http://shang.qq.com/wpa/qunwpa?idkey=ff7d30bde77e41883745af6608e898c34b5fd5509e3d63fb7a1aa97425709657){: target="\_blank" }（群号302758716）  
 
 [1]: ../about_SMT/staff.md
 [2]: https://github.com/XiaofengdiZhu/SMT3/issues

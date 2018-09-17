@@ -35,35 +35,35 @@ td:nth-child(2), th:nth-child(2), td:nth-child(4), th:nth-child(4){
             </tr>
           </thead>
           <tr>
-            <td><a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a></td>
+            <td>[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }</td>
             <td>组长<br />委员</td>
             <td>2013/7/10</td>
             <td>活跃</td>
             <td>变态版mod、地狱mod、变态版材质、SMT导航</td>
           </tr>
           <tr>
-            <td><a href="http://tieba.baidu.com/home/main/?un=_0超新星0_" target="_blank">\_0超新星0\_</a></td>
+            <td>[\_0超新星0\_](http://tieba.baidu.com/home/main/?un=_0超新星0_){: target="\_blank" }</td>
             <td width="50px">副组长<br />委员</td>
             <td>2014/1</td>
             <td>退隐</td>
             <td>更多合成公式mod、R3D-CRAFT材质，dll的研究，材质制作教程</td>
           </tr>
           <tr>
-            <td><a href="http://tieba.baidu.com/home/main/?un=512542248" target="_blank">512542248</a></td>
+            <td>[512542248](http://tieba.baidu.com/home/main/?un=512542248){: target="\_blank" }</td>
             <td>委员</td>
             <td>2013/7/10</td>
             <td>退隐</td>
             <td>早期mod研究，成立SMT</td>
           </tr>
           <tr>
-            <td style="word-break:break-all; word-wrap:break-all;"><a href="http://tieba.baidu.com/home/main/?un=lzm956902416" target="_blank">lzm956902416</a></td>
+            <td style="word-break:break-all; word-wrap:break-all;">[lzm956902416](http://tieba.baidu.com/home/main/?un=lzm956902416){: target="\_blank" }</td>
             <td>委员</td>
             <td>2013</td>
             <td>退隐</td>
             <td>SMT导航</td>
           </tr>
           <tr>
-            <td><a href="http://tieba.baidu.com/home/main/?un=瞄准地雷" target="_blank">瞄准地雷</a></td>
+            <td>[瞄准地雷](http://tieba.baidu.com/home/main/?un=瞄准地雷){: target="\_blank" }</td>
             <td>委员</td>
             <td>2014/3/28</td>
             <td>退隐</td>
@@ -101,7 +101,7 @@ td:nth-child(2), th:nth-child(2), td:nth-child(4), th:nth-child(4){
         <td>暂无</td>
       </tr>
       <tr>
-        <td><a href="http://tieba.baidu.com/home/main/?un=看丶小星星哎" target="_blank">看丶小星星哎</a></td>
+        <td>[看丶小星星哎](http://tieba.baidu.com/home/main/?un=看丶小星星哎){: target="\_blank" }</td>
         <td>组员</td>
         <td>2014/9/24</td>
         <td>活跃</td>
@@ -115,7 +115,7 @@ td:nth-child(2), th:nth-child(2), td:nth-child(4), th:nth-child(4){
         <td>噩梦版、混乱之治系列、猎驯时代系列</td>
       </tr>
       <tr>
-        <td><a href="http://tieba.baidu.com/home/main/?un=修改是种乐趣" target="_blank">修改是种乐趣</a></td>
+        <td>[修改是种乐趣](http://tieba.baidu.com/home/main/?un=修改是种乐趣){: target="\_blank" }</td>
         <td>组员</td>
         <td>2016/12/24</td>
         <td>活跃</td>

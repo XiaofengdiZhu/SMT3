@@ -1,7 +1,7 @@
 title: 发布范例
 #发布范例
 
->本范例由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
+>本范例由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 ##前言
 
@@ -9,7 +9,8 @@ title: 发布范例
 * 建议边制作Mod边撰写Mod介绍
 
 ##贴吧发布结构
-`在贴吧发布的范例结构` 
+>在贴吧发布的范例结构
+
 ###标题
 【日期 Mod】 Mod名称 - 最简短介绍  
 >**例** 【6-26Mod】狂拽酷炫吊炸天Mod - 高端大气上档次,低调奢华有内涵
@@ -44,11 +45,11 @@ Mod详细介绍
 !!! hint ""
     帮助他人了解、学习mod
 
-`* 修改文件`Content.pak\Blocksdata`` 
-* 修改`WaterBlock(水)`和`MagmaBlock(岩浆方块)`的`ExplosionResilience`为0，`IsExplosionTransparent`为`TRUE(是)`
-* 修改`WaterBlock`的`IsPlacementTransparent(是否放置透明)`为`FALSE(否)`，`ShadowStrength(阴影强度)`为0，`LightAttenuation(光衰减)`为1，`EmittedLightAmount(发光强度)`为10
-* 修改`LargeGunpowderKegBlock(大炸弹方块)`的`IsFluidBlocker(是否阻挡流体)`为`TRUE`，`DefaultExplosionPressure(默认爆炸压力)`为99999
-* 修改除`WaterBlock`和`MagmaBlock`外所有方块的`ExplosionResilience(爆炸抗性)`为`Infinity(无限大)`
+* 修改文件`Content.pak\Blocksdata`  
+* 修改`WaterBlock(水)`和`MagmaBlock(岩浆方块)`的`ExplosionResilience`为0，`IsExplosionTransparent`为`TRUE(是)`  
+* 修改`WaterBlock`的`IsPlacementTransparent(是否放置透明)`为`FALSE(否)`，`ShadowStrength(阴影强度)`为0，`LightAttenuation(光衰减)`为1，`EmittedLightAmount(发光强度)`为10  
+* 修改`LargeGunpowderKegBlock(大炸弹方块)`的`IsFluidBlocker(是否阻挡流体)`为`TRUE`，`DefaultExplosionPressure(默认爆炸压力)`为99999  
+* 修改除`WaterBlock`和`MagmaBlock`外所有方块的`ExplosionResilience(爆炸抗性)`为`Infinity(无限大)`  
 
 ###大型主题Mod
 ####mod名称

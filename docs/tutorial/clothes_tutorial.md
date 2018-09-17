@@ -1,7 +1,7 @@
 title: Clothes解析
 #Clothes解析
 
->本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 !!! warning ""
     请务必先阅读[XML教程][1]

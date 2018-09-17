@@ -2,13 +2,20 @@ title: Database解析
 #Database解析
 
 !!! failure "未完成"
-    页面未完成，<a href="https://lzm956902416.github.io/SMT/database_tutorial.html" target="_blank">点击此处</a>前往查看旧版
+    页面未完成，[点击此处](https://lzm956902416.github.io/SMT/database_tutorial.html){: target="\_blank" }前往查看旧版
 
-<div style="text-align: center;">
-    <img src="../../saiming/database_1.png" title="点击查看大图" style="max-height: 600px;" onclick="openPhotoSwipe(0);"><br />
-    点击图片查看大图，或<a href="http://pan.baidu.com/share/link?shareid=68742967&uk=2788149454" target="_blank">点击此处下载</a>
-</div>
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
+!!! warning ""
+    请务必先阅读[XML教程][1]
+
+
+
+![点击查看大图](../saiming/database_1.png){: title="点击查看大图" style="max-height: 600px;" onclick="openPhotoSwipe(0);" }  
+点击图片查看大图，或[点击此处下载](http://pan.baidu.com/share/link?shareid=68742967&uk=2788149454){: target="\_blank" }
+{: style="text-align: center;" }
+
+<!-- photoswipe查看大图插件 -->
 <link rel="stylesheet" href="../../assets/photoswipe/photoswipe.css">
 <script src="../../assets/photoswipe/photoswipe.min.js"></script> 
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -67,3 +74,5 @@ title: Database解析
         gallery.init();
     };
 </script>
+
+[1]: xml_tutorial.md

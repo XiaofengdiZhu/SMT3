@@ -1,7 +1,7 @@
 title: Android基础教程
 #Android基础教程
 
->本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>编写
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 ##所需工具
 * Android 2.3及以上设备
@@ -10,13 +10,13 @@ title: Android基础教程
 
 ##获取游戏
 ###正版途径
-<a href="http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on Google Play</a>  
-<a href="https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M" target="_blank">Survivalcraft2 on amazon appstore for Android</a>  
+[Survivalcraft2 on Google Play](http://play.google.com/store/apps/details?id=com.candyrufusgames.survivalcraft2){: target="\_blank" }  
+[Survivalcraft2 on amazon appstore for Android](https://www.amazon.com/Candy-Rufus-Games-Survivalcraft-2/dp/B01N6GTF7M){: target="\_blank" }  
 >均为3.99美元，请支持正版！
 
 ###其他途径
-<a href="http://m.appchina.com/app/com.candyrufusgames.survivalcraft2" target="_blank">Survivalcraft2 on 应用汇</a>  
-<a href="https://tieba.baidu.com/p/5554414557" target="_blank">mod插件版</a>
+[Survivalcraft2 on 应用汇](http://m.appchina.com/app/com.candyrufusgames.survivalcraft2){: target="\_blank" }  
+[mod插件版](https://tieba.baidu.com/p/5554414557){: target="\_blank" }
 >mod插件版可将Mod文件放至`/Survivalcraft/Mods`而不是安装包中进行加载，可大大提高在Android平台开发速率，链接内有使用教程
 
 !!! warning ""

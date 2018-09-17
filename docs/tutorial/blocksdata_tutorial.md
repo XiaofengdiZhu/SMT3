@@ -1,7 +1,7 @@
 title: BlocksData解析
 #BlocksData解析
 
->本教程由百度贴吧-<a href="http://tieba.baidu.com/home/main/?un=销锋镝铸" target="_blank">销锋镝铸</a>、<a href="http://tieba.baidu.com/home/main/?un=大王派" target="_blank">大王派</a>、<a href="http://tieba.baidu.com/home/main/?un=freeze丶果果" target="_blank">freeze丶果果</a>编写  
+>本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }、[大王派](http://tieba.baidu.com/home/main/?un=大王派){: target="\_blank" }、[freeze丶果果](http://tieba.baidu.com/home/main/?un=freeze丶果果){: target="\_blank" }编写  
 
 !!! warning ""
     本教程对应游戏版本2.1，表格部分建议手机用户横屏查看
@@ -12,7 +12,7 @@ title: BlocksData解析
   
 !!! note "csv文件"
     以纯文本形式存储表格数据，使用特定的符号（该文件`;`）分隔字段  
-    可使用<a href="https://products.office.com/zh-cn/excel" target="_blank">Office Excel</a>打开
+    可使用[Office Excel](https://products.office.com/zh-cn/excel){: target="\_blank" }打开
 
 本教程将详细讲解该文件的文件结构和内容
 
@@ -99,7 +99,7 @@ BedrockBlock;Bedrock;Terrain
         </tr>
     </thead>
     <tbody id="tbodyBlocksdata">
-        <tr> <td></td> <td>string</td> <td>Class Name</td> <td>类名</td> <td>“源代码”中该方块的<a href="http://www.runoob.com/csharp/csharp-class.html" target="_blank">Class(类)</a>的名称，例如方块被破坏和动物死亡时的掉落方块使用该属性，建议不要修改现存方块的该属性</td> </tr>
+        <tr> <td></td> <td>string</td> <td>Class Name</td> <td>类名</td> <td>“源代码”中该方块的[Class(类)](http://www.runoob.com/csharp/csharp-class.html){: target="\_blank" }的名称，例如方块被破坏和动物死亡时的掉落方块使用该属性，建议不要修改现存方块的该属性</td> </tr>
         <tr> <td></td> <td>string</td> <td>Default Display Name</td> <td>默认显示名称</td> <td>游戏中玩家能够看到的方块名字</td> </tr>
         <tr> <td></td> <td>string</td> <td>Default Category</td> <td>默认类别</td> <td>帮助和创造模式物品栏中的方块类别，可自定义新类别</td> </tr>
         <tr> <td></td> <td>string</td> <td>Behaviors</td> <td>行为</td> <td>方块行为，多个行为需用逗号<code>,</code>隔开，详情见
