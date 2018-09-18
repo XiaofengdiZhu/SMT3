@@ -7,7 +7,8 @@ title: Database解析
 >本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 !!! warning ""
-    请务必先阅读[XML教程][1]
+    请务必先阅读[XML教程][1]  
+    本教程对应游戏版本2.1
 
 ##前言
 在之前的[Content解析][2]中，提到：
@@ -73,7 +74,7 @@ title: Database解析
 从实例中可以看到，`LandAnimal`的父对象是`AICreature`，那么`LandAnimal`的子元素`Mount`将继承得到`AICreature`的子元素`Mount`的子元素`DismountOffset`
 
 ##根元素Database
-根元素`Database`及其子元素如下所示，以下将对每个子元素一一说明解析
+`Database.xml`文件的根元素`Database`及其子元素如下所示，以下将对每个子元素一一说明解析
 ```xml
 <Database>
     <DatabaseObjectTypes>…</DatabaseObjectTypes>
@@ -85,11 +86,174 @@ title: Database解析
 ```
 
 ###DatabaseObjectTypes
+这一元素可以看作是`DatabaseObjects`元素的层级说明，说明每一个层级可以有什么子元素等，以其中两个个子元素为例  
+```xml
+    <DatabaseObjectType Name="ComponentTemplate" DefaultInstanceName="Component" 
+        IconName="ComponentTemplate" Order="6" SupportsValue="False" 
+        MustInherit="False" NameLengthLimit="256" SaveStandalone="False" 
+        AllowedNestingParents="Root,Folder" AllowedInheritanceParents="ComponentTemplate" 
+        NestedValueType="Parameter" />
+    <DatabaseObjectType Name="MemberComponentTemplate" DefaultInstanceName="MemberComponent" 
+        IconName="MemberComponentTemplate" Order="7" SupportsValue="False" 
+        MustInherit="True" NameLengthLimit="256" SaveStandalone="False" 
+        AllowedNestingParents="EntityTemplate" AllowedInheritanceParents="ComponentTemplate" 
+        NestedValueType="Parameter" />
+```
+属性详解：  
+<style>
+    article th, td{
+        vertical-align:middle !important;
+        word-break: break-all;
+    }
+</style>
+<table style="table-layout:fixed; min-width:54rem;">
+    <thead>
+        <tr>
+            <th style="width: 10rem;word-break: break-all;">属性名</th>
+            <th style="width: 8rem;">翻译</th>
+            <th>详解</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>名字</td>
+            <td>(作为<code>Template模板</code>)出现的元素名</td>
+        </tr>
+        <tr>
+            <td>Default<br />Instance<br />Name</td>
+            <td>默认实例名称</td>
+            <td>作为<code>Instance实例</code>出现的元素名。<br />
+                模板只写在<code>Database.xml</code>，而实例则是在游戏运行时由模板创建而来，最后保存到存档的<code>Project.xml</code>中
+            </td>
+        </tr>
+        <tr>
+            <td>IconName</td>
+            <td>图标名字</td>
+            <td>作用不明</td>
+        </tr>
+        <tr>
+            <td>Order</td>
+            <td>保存次序</td>
+            <td>表示元素名为<code>Name</code>的元素（以下简称<code>Name元素</code>）在游戏保存时的次序，数字越小越先保存，目的是防止xml树结构错误</td>
+        </tr>
+        <tr>
+            <td>Supports<br />Value</td>
+            <td>是否支持<code>Value(值)</code>属性</td>
+            <td>Name元素是否能够拥有属性<code>Value(值)</code><br />
+                当这个元素拥有<code>Value</code>属性时，还需要有对应的<code>Type(数据类型)</code>属性</td>
+        </tr>
+        <tr>
+            <td>MustInherit</td>
+            <td>是否必须继承</td>
+            <td>Name元素是否必须拥有属性<code>InheritanceParent(继承码)</code></td>
+        </tr>
+        <tr>
+            <td>Name<br />LengthLimit</td>
+            <td>名字长度限制</td>
+            <td>Name元素的<code>Name</code>属性的字节数限制，属性值都是256</td>
+        </tr>
+        <tr>
+            <td>Save<br />Standalone</td>
+            <td>是否单独保存</td>
+            <td>作用不明</td>
+        </tr>
+        <tr>
+            <td>Allowed<br />Nesting<br />Parents</td>
+            <td>允许嵌入的父元素</td>
+            <td>Name元素的父元素只能是该属性值之一</td>
+        </tr>
+        <tr>
+            <td>Allowed<br />Inheritance<br />Parents</td>
+            <td>允许继承的父对象</td>
+            <td>Name元素继承的父对象只能是该属性值之一</td>
+        </tr>
+        <tr>
+            <td>Nested<br />ValueType</td>
+            <td>嵌套值类型</td>
+            <td>除<code>Name</code>属性值为<code>Parameter(参数)</code>的元素外，该属性值都是<code>Parameter</code></td>
+        </tr>
+    </tbody>
+</table>
 
+###Assemblies
+作用不明，将所有子元素删除后游戏仍能正常运行
 
-![点击查看大图](../saiming/database_1.png){: title="点击查看大图" style="max-height: 600px;" onclick="openPhotoSwipe(0);" }  
+###DatabaseObjects
+该元素是整个`Database.xml`最重要的一部分，如下代码所示，以下将针对每个`Folder(文件夹)`做说明
+```xml
+<DatabaseObjects RootGuid="2c273f6a-efce-4bf1-a8ae-e3aea7ffb75c">
+    <Folder Name="Entities" Guid="5fcdf35f-7001-442c-883e-e0502b15d291">
+        <Folder Name="Creatures" Guid="beb2de3c-1a77-4950-b74f-9dd470f751fe">… </Folder>
+        <EntityTemplate Name="Chest" Guid="08550017-af17-4955-81fa-aafaf97b92bd">…</EntityTemplate>
+        …<!-- 各种BlockEntity(方块实体) -->
+        <EntityTemplate Name="Furnace" Guid="f4a43056-d37d-455f-9a43-803260a915a9">…</EntityTemplate>
+    </Folder>
+    <Folder Name="Subsystems" Guid="75acb50b-fb75-4c85-af38-a0fb51a9eb90">…</Folder>
+    <Folder Name="Components" Guid="766da18a-636a-4a88-803c-4462aed106f3">…</Folder>
+    <Folder Name="Projects" Guid="aec7b5f9-de96-4ef0-8b6c-4a9e3b021ddf">…</Folder>
+    <Folder Name="Abstract" Guid="c6ba6a30-5042-4d3d-9bea-199cd4acc3fa">…</Folder>
+</DatabaseObjects>
+```
+
+####Entities
+在上面的代码中已经能够看到，它包含一个`Creatures(生物)`文件夹和一些单独列出的`EntityTemplate(实体模板)`
+
+#####EntityTemplate
+先来说说这些单独列出的实体模板，它包括：
+
+* 类似生物
+    * `IntroShip(介绍船)`
+    * `Boat(小船)`
+* BlockEntity(方块实体)类型
+    * `Chest(箱子)`
+    * `Dispenser(发射器)`
+    * `CraftingTable(合成台)`
+    * `Furnace(火炉)`  
+
+可以看出，它们和生物不太一样，但也都是实体
+
+!!! hint "实体和Component"
+    实体的一般特征是具有一个或多个`Component`，可以认为实体是`Component`的载体  
+
+#####Creatures
+该文件夹下面还包含以下三个文件夹：
+
+* `Abstract(摘要)` 不能被实例化的生物摘要{>>翻译可能不够准确<<} ，用于被下面的`Animals(动物)`文件夹内的实体继承，有诸如`Bird(鸟)`、`LandAnimal(地面生物)`、`Fish(鱼)`等实体模板。在下面的生物继承导图中是紫色边框。
+* `Animals(动物)` 除`Player玩家`外所有动物的实体模板都在这个文件夹内。一般修改特定动物数据或添加新动物都在这个文件夹内进行；如果要修改一组生物，可以修改它们的共同父对象或共同父对象的父对象……
+* `Players(玩家)` 顾名思义，玩家的实体模板在这个文件夹内，包括`FemalePlayer(女性玩家)`和`MalePlayer(男性玩家)`
+
+具体一个实体模板里的子元素在此不详细解析，可以参考[中文版Database.xml 1.25][3]
+
+######生物继承导图
+![点击查看大图](../saiming/database_1.png){: title="点击查看大图" style="max-height: 600px; cursor: pointer;" onclick="openPhotoSwipe(0);" }  
 点击图片查看大图，或[点击此处下载](http://pan.baidu.com/share/link?shareid=68742967&uk=2788149454){: target="\_blank" }
 {: style="text-align: center;" }
+
+####Subsystems
+所有要被加载的`Subsystem`都在这个文件夹
+
+####Components
+所有要被加载的`Component`都在这个文件夹
+
+!!! hint "Component和Subsystem"
+    `Component`能被多个实体各自拥有一个，独立运行；相对的，一个`Subsystem`在游戏运行时只会被实例化一个
+
+####Projects
+详细说明见下一小节
+
+####Abstract
+该文件夹的子元素`SubsystemTemplate`和`ComponentTemplate`分别是上面所有其他`SubsystemTemplate`和`ComponentTemplate`的父对象；`ProjectTemplate`则是上一节的唯一子元素的父对象  
+此处的`ProjectTemplate`相当于是包含了游戏进入存档时所有真正要使用的`Subsystem`，而上面的`Subsystems`文件夹只是载入游戏时预先加载和设定相关参数；所以如果要添加`Subsystem`，在上面的`Subsystems`文件夹和该文件夹都需要将它“注册”
+
+###GridViewPresets
+作用不明，将该元素删除后游戏仍能正常运行
+
+###UserTypes
+作用不明，将该元素删除后游戏仍能正常运行
+
+##例子
+详见[动物相关][4]例子
 
 <!-- photoswipe查看大图插件 -->
 <link rel="stylesheet" href="../../assets/photoswipe/photoswipe.css">
@@ -154,3 +318,4 @@ title: Database解析
 [1]: xml_tutorial.md
 [2]: content_tutorial.md#_2
 [3]: resources.md#_16
+[4]: ../other_tutorial/animal_example.md

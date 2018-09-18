@@ -83,5 +83,6 @@ pages:
     - '正则表达式教程': 'tutorial/regex_tutorial.md'
   - '例子':
     - '发布范例': 'other_tutorial/publication_example.md'
+    - '动物相关': 'other_tutorial/animal_example.md'
     - '扩展背包Mod': 'other_tutorial/expand_backpack_example.md'
     - '添加方块': 'other_tutorial/add_block_example.md'
