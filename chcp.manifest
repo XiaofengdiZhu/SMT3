@@ -1,47 +1,47 @@
 [
   {
     "file": "404.html",
-    "hash": "4a258c75be0d6c341004656cd4d77408"
+    "hash": "d79cea8089b6cdda863c7e2f902c7bd5"
   },
   {
     "file": "about_SMT/nav_update/index.html",
-    "hash": "e4e26f1a58602d8867bde87d5f1ad833"
+    "hash": "cdee56679427c29eed57f33f1d090763"
   },
   {
     "file": "about_SMT/SMT_history/index.html",
-    "hash": "7af01c18f8cf5e23a877bb85fa0a32c8"
+    "hash": "0c912e020eaa71b68019a4ece0a018e0"
   },
   {
     "file": "about_SMT/SMT_members/index.html",
-    "hash": "fd440cb537b308f90e33a64bacc7b8ba"
+    "hash": "a7232b37875c7cdf50114250a2294d66"
   },
   {
     "file": "about_SMT/SMT_rules/index.html",
-    "hash": "51968f51625528a9d4a877488e906213"
+    "hash": "3a6497aff2bbbda53e2fec0ba9fc2d3a"
   },
   {
     "file": "about_SMT/staff/index.html",
-    "hash": "1e616b577bc3d56562e1364665647fd6"
+    "hash": "062a2801200048a46dda8616de90e7e0"
   },
   {
     "file": "assets/check_update/index.html",
-    "hash": "1245c6d713415f70a72da1ee06c92a3b"
+    "hash": "115f0d787549b2ef1260856d89a64234"
   },
   {
     "file": "assets/javascripts/application.b438e6c5.js",
-    "hash": "1bac120476c54b4d26e0d44e692bfd1e"
+    "hash": "75283abcde156ee2241c0c87ebe78d55"
   },
   {
     "file": "assets/javascripts/lunr/lunr.js",
-    "hash": "4951f6b4400739ed0c8c8305daccdb25"
+    "hash": "c12ebe35914ab04d85aede45797b76ec"
   },
   {
     "file": "assets/javascripts/modernizr.1aa3b519.js",
-    "hash": "f8613c8b7c4bb8b18e67ba84189f4cc7"
+    "hash": "0a4216d2bf7c961657b8faf0f255cdca"
   },
   {
     "file": "assets/no_cached/index.html",
-    "hash": "8f3b7f0d34ae432ec34c5cb305f59236"
+    "hash": "4aa150ca4e031caa0de97782a9eb8968"
   },
   {
     "file": "assets/photoswipe/default-skin.svg",
@@ -49,11 +49,11 @@
   },
   {
     "file": "assets/photoswipe/photoswipe.css",
-    "hash": "40785c197bad5ab6e04f8594b0641a59"
+    "hash": "51158ba0c74166eb8cbe7ad7cd9e85c9"
   },
   {
     "file": "assets/photoswipe/photoswipe.min.js",
-    "hash": "4510aabfbf4b77a40c345c17f9128a17"
+    "hash": "0a33fa7654cd2d61ae395db212c6185c"
   },
   {
     "file": "assets/photoswipe/preloader.gif",
@@ -61,7 +61,7 @@
   },
   {
     "file": "assets/stylesheets/application.css",
-    "hash": "127e98cd6d8e09e5051fa3ae296d3ae1"
+    "hash": "6f4a65f8df19898ebe3a14747989e03d"
   },
   {
     "file": "favicon.png",
@@ -101,39 +101,71 @@
   },
   {
     "file": "index.html",
-    "hash": "211a09abd5ca94284a75bb49a8e1df80"
+    "hash": "d7ddad0a48c45f0dcca841bebc8d13a4"
   },
   {
     "file": "javascript/cordova_extra.js",
-    "hash": "c4c11f337c0f7124928f466f2659f19a"
+    "hash": "4b279f0b8cbab9a84d0bd38d0c56bca7"
   },
   {
     "file": "javascript/extra.js",
-    "hash": "4122fbcc3961f6a9dbf1f263e76de7c6"
+    "hash": "188cffe9e512c053780a6777baeaf4c2"
   },
   {
     "file": "javascript/jquery-3.3.1.min.js",
-    "hash": "a4da3af07f6960ca9f3ad12a759d8a86"
+    "hash": "134cfcc2039bf9b6d433c826c10d5d35"
   },
   {
     "file": "javascript/preload.js",
-    "hash": "b0615c3158f31bd86c5ec1509b8cdcdb"
+    "hash": "4b18e340cf4ff5f005470389336b69e5"
+  },
+  {
+    "file": "Magisk-v15.3.zip",
+    "hash": "93ecc284b92d3f1b7355ad7d0ca3d2df"
+  },
+  {
+    "file": "Magisk-v15.4.zip",
+    "hash": "48a6156defdbd3dd3a224b63743b6b39"
+  },
+  {
+    "file": "Magisk-v16.0.zip",
+    "hash": "6de1bc5d2f3b5fbcdebc2d6023902417"
+  },
+  {
+    "file": "Magisk-v16.6.zip",
+    "hash": "1628ca20742eca8b1d8491feaa1ba4fe"
+  },
+  {
+    "file": "magisk.json",
+    "hash": "36dd65a87e45015b566fa357415d7aa6"
+  },
+  {
+    "file": "MagiskManager-v5.6.0.apk",
+    "hash": "4babdb78ed412482013b3a659340cd03"
+  },
+  {
+    "file": "MagiskManager-v5.8.3.apk",
+    "hash": "c2813e8b46e0d6450fe6c07c48266c7a"
   },
   {
     "file": "manifest.json",
-    "hash": "453c455953e9b926394c17b5298ec78c"
+    "hash": "10944cf58ca11b614880b256b529c268"
   },
   {
     "file": "other_tutorial/add_block_example/index.html",
-    "hash": "3561debab28e358e74b0511da5a63617"
+    "hash": "9d44ea415ef12e3e9a9867446bcce115"
+  },
+  {
+    "file": "other_tutorial/animal_example/index.html",
+    "hash": "156391bd84a9fd0e989d291ba214c197"
   },
   {
     "file": "other_tutorial/expand_backpack_example/index.html",
-    "hash": "c01b844623ce7adaf049282d13ac09ee"
+    "hash": "0422b6c7d7e354ba002785e4a7e0f891"
   },
   {
     "file": "other_tutorial/publication_example/index.html",
-    "hash": "3808eebac7cc8308df268ca17fd8c9b2"
+    "hash": "b484ce130f8882752daeb2a2e172747e"
   },
   {
     "file": "saiming/404.png",
@@ -197,15 +229,15 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "042f7accad9c527388d77c20e2255dbb"
+    "hash": "659fc1c3a049e9f9c7e9a12bc3f000b4"
   },
   {
     "file": "service-worker.js",
-    "hash": "12c6a76d6e661263fcfde7210ae7f60b"
+    "hash": "a3ca088d5b51e9042e9f2440d4070683"
   },
   {
     "file": "sitemap.xml",
-    "hash": "8a18abbd6bcd34d8164589710254490e"
+    "hash": "334ad76c7519aa184a8affd4d6a9a5c1"
   },
   {
     "file": "stylesheets/extra.css",
@@ -213,50 +245,54 @@
   },
   {
     "file": "tutorial/android_tutorial/index.html",
-    "hash": "7ba0cabb159e7a2222d9ad89ccc77199"
+    "hash": "b00bc428fb7488388e1bfbba8a1aee8e"
   },
   {
     "file": "tutorial/blocksdata_tutorial/index.html",
-    "hash": "36059c667c4631a1089c92d15cdd8b4c"
+    "hash": "25e98fba6f9466e49e908c17d1df1885"
   },
   {
     "file": "tutorial/clothes_tutorial/index.html",
-    "hash": "00c26a64f096b81704670b47e4571458"
+    "hash": "21dcafdd3222cbcd3a1677d4fea61a3a"
   },
   {
     "file": "tutorial/content_tutorial/index.html",
-    "hash": "0d413ee3b34b80db469bdd7bd67c1504"
+    "hash": "6a36626cf15c0d83aa164a12f5f91209"
   },
   {
     "file": "tutorial/craftingrecipes_tutorial/index.html",
-    "hash": "07f34f10d870a48e60d79b516bfdd707"
+    "hash": "1c583813b4f9874bd5333e7f6ceb554b"
   },
   {
     "file": "tutorial/database_tutorial/index.html",
-    "hash": "eeb91035406cc9a71e67e82525999252"
+    "hash": "f5724ac61c4932e0a853f0ad6fff3f5e"
   },
   {
     "file": "tutorial/preface/index.html",
-    "hash": "c4adc4a2954d2b4d5ef1a09e77125b36"
+    "hash": "335685eb504700b47b0a4b56586843a1"
   },
   {
     "file": "tutorial/regex_tutorial/index.html",
-    "hash": "ccb3feccfd4db082ec85eaf80f835986"
+    "hash": "46f6de550292069b00c119619d5cde2f"
   },
   {
     "file": "tutorial/resources/index.html",
-    "hash": "568b8913447cd66e2615cf7ec67d7b04"
+    "hash": "e95784f01e83db8b0ebc1e1a7e59e7e5"
   },
   {
     "file": "tutorial/source_code_tutorial/index.html",
-    "hash": "3338cbfb45105100ea11df459ed70505"
+    "hash": "0865d96250cbaa26f1a2143a4d3f10c4"
   },
   {
     "file": "tutorial/windows_tutorial/index.html",
-    "hash": "5965be3278cab9d1a773ae03cc4a798e"
+    "hash": "9c9de8fea42a015a32814c349ae15027"
   },
   {
     "file": "tutorial/xml_tutorial/index.html",
-    "hash": "4cd4dabcf52a9d8af46ea8f46ef9c401"
+    "hash": "b4b4bb52aba6079c7b84b4d605e1db0d"
+  },
+  {
+    "file": "web.config",
+    "hash": "095cb711fb1a8ac6b0d0175b5bd0a750"
   }
 ]
