@@ -120,34 +120,6 @@
     "hash": "4b18e340cf4ff5f005470389336b69e5"
   },
   {
-    "file": "Magisk-v15.3.zip",
-    "hash": "93ecc284b92d3f1b7355ad7d0ca3d2df"
-  },
-  {
-    "file": "Magisk-v15.4.zip",
-    "hash": "48a6156defdbd3dd3a224b63743b6b39"
-  },
-  {
-    "file": "Magisk-v16.0.zip",
-    "hash": "6de1bc5d2f3b5fbcdebc2d6023902417"
-  },
-  {
-    "file": "Magisk-v16.6.zip",
-    "hash": "1628ca20742eca8b1d8491feaa1ba4fe"
-  },
-  {
-    "file": "magisk.json",
-    "hash": "36dd65a87e45015b566fa357415d7aa6"
-  },
-  {
-    "file": "MagiskManager-v5.6.0.apk",
-    "hash": "4babdb78ed412482013b3a659340cd03"
-  },
-  {
-    "file": "MagiskManager-v5.8.3.apk",
-    "hash": "c2813e8b46e0d6450fe6c07c48266c7a"
-  },
-  {
     "file": "manifest.json",
     "hash": "10944cf58ca11b614880b256b529c268"
   },
@@ -290,9 +262,5 @@
   {
     "file": "tutorial/xml_tutorial/index.html",
     "hash": "b4b4bb52aba6079c7b84b4d605e1db0d"
-  },
-  {
-    "file": "web.config",
-    "hash": "095cb711fb1a8ac6b0d0175b5bd0a750"
   }
 ]
