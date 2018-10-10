@@ -1,9 +1,6 @@
 title: Database解析
 #Database解析
 
-!!! failure "未完成"
-    页面未完成，[点击此处](https://lzm956902416.github.io/SMT/database_tutorial.html){: target="\_blank" }前往查看旧版
-
 >本教程由百度贴吧-[销锋镝铸](http://tieba.baidu.com/home/main/?un=销锋镝铸){: target="\_blank" }编写
 
 !!! warning ""
@@ -224,6 +221,9 @@ title: Database解析
 * `Players(玩家)` 顾名思义，玩家的实体模板在这个文件夹内，包括`FemalePlayer(女性玩家)`和`MalePlayer(男性玩家)`
 
 具体一个实体模板里的子元素在此不详细解析，可以参考[中文版Database.xml 1.25][3]
+
+!!! warning ""
+    [中文版Database.xml 1.25][3]虽然过于古老，但后来新增的内容并不算多，还很“够用”
 
 ######生物继承导图
 ![点击查看大图](../saiming/database_1.png){: title="点击查看大图" style="max-height: 600px; cursor: pointer;" onclick="openPhotoSwipe(0);" }  
