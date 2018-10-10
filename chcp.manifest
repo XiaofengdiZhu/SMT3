@@ -117,7 +117,7 @@
   },
   {
     "file": "javascript/preload.js",
-    "hash": "4b18e340cf4ff5f005470389336b69e5"
+    "hash": "8036485ee12622c650f0c082911d7e4c"
   },
   {
     "file": "manifest.json",
@@ -133,7 +133,7 @@
   },
   {
     "file": "other_tutorial/expand_backpack_example/index.html",
-    "hash": "0422b6c7d7e354ba002785e4a7e0f891"
+    "hash": "2f0ac190854600897c1bda11da6d0716"
   },
   {
     "file": "other_tutorial/publication_example/index.html",
@@ -180,6 +180,18 @@
     "hash": "43a0ac4fe7e69f1c07f4cf9cac219ad1"
   },
   {
+    "file": "saiming/backpack_01.png",
+    "hash": "66edfdb93182e5a37096d29baa670e6a"
+  },
+  {
+    "file": "saiming/backpack_02.png",
+    "hash": "e0baddcc62fab39539c39618821e1ffc"
+  },
+  {
+    "file": "saiming/backpack_03.png",
+    "hash": "c2532ce727f9ca88b149434e350cb076"
+  },
+  {
     "file": "saiming/content_1.png",
     "hash": "462a6bb48306bfb66c599e735514f4f7"
   },
@@ -201,7 +213,7 @@
   },
   {
     "file": "search/search_index.json",
-    "hash": "659fc1c3a049e9f9c7e9a12bc3f000b4"
+    "hash": "4b40c0a84b5157910b0e7e94d71c2959"
   },
   {
     "file": "service-worker.js",
@@ -209,7 +221,7 @@
   },
   {
     "file": "sitemap.xml",
-    "hash": "334ad76c7519aa184a8affd4d6a9a5c1"
+    "hash": "e88bc8e658fe3dbf92c70a1a0be7f888"
   },
   {
     "file": "stylesheets/extra.css",
@@ -237,7 +249,7 @@
   },
   {
     "file": "tutorial/database_tutorial/index.html",
-    "hash": "f5724ac61c4932e0a853f0ad6fff3f5e"
+    "hash": "af092dc9fcfee39531289067bad43268"
   },
   {
     "file": "tutorial/preface/index.html",
